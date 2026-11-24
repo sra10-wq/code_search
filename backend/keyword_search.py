@@ -1,6 +1,7 @@
 import re, sqlite3, sys
 
 DB = "data/chunks.db"
+STOP = {"a","an","the","and","or","on","in","of","to","for","with","is","it","from","by","at","as","be","this","that","how","do","i"}
 
 def split_identifiers(text):
     # parseJsonFile -> parse Json File; read_csv -> read csv
@@ -21,7 +22,7 @@ def build_index():
 
 def keyword_search(query, k=10):
     conn = sqlite3.connect(DB)
-    words = re.findall(r"\w+", split_identifiers(query))
+    words = [w for w in re.findall(r"\w+", split_identifiers(query)) if w.lower() not in STOP]
     if not words:
         return []
     fts_query = " OR ".join(f'"{w}"' for w in words)
