@@ -1,5 +1,6 @@
-import re, sqlite3, sys
-import numpy as np, faiss, torch
+import os, re, sqlite3, sys
+import torch
+import numpy as np, faiss
 from sentence_transformers import SentenceTransformer
 
 DB = "data/chunks.db"
@@ -11,7 +12,7 @@ _model = None
 def model():
     global _model
     if _model is None:
-        device = "mps" if torch.backends.mps.is_available() else "cpu"
+        device = os.environ.get("DEVICE") or ("mps" if torch.backends.mps.is_available() else "cpu")
         _model = SentenceTransformer(MODEL, device=device)
         _model.max_seq_length = 256
     return _model

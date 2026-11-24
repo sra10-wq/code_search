@@ -4,9 +4,15 @@ from semantic_search import semantic_search
 
 RRF_K = 60  # standard constant; dampens the gap between rank 1 and rank 2
 
+TIMINGS = {}
+
 def hybrid_search(query, k=10, pool=50):
+    t0 = time.perf_counter()
     kw = keyword_search(query, pool)
+    t1 = time.perf_counter()
     sem = semantic_search(query, pool)
+    t2 = time.perf_counter()
+    TIMINGS.update(keyword_ms=round((t1-t0)*1000), semantic_ms=round((t2-t1)*1000))
     scores, info = {}, {}
     for results in (kw, sem):
         for rank, r in enumerate(results):

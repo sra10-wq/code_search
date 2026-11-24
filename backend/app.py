@@ -1,8 +1,13 @@
+import os
+# must run before torch/faiss load: avoids the macOS OpenMP conflict between them
+os.environ.setdefault("OMP_NUM_THREADS", "1")
+os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
+os.environ.setdefault("DEVICE", "cpu")
 import sqlite3, time
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from hybrid_search import hybrid_search
+from hybrid_search import hybrid_search, TIMINGS
 from semantic_search import semantic_search
 
 DB = "data/chunks.db"
@@ -22,7 +27,7 @@ def health():
     return {"status": "ok"}
 
 @app.get("/search")
-def search(q: str = Query(..., min_length=2), k: int = Query(10, ge=1, le=50)):
+async def search(q: str = Query(..., min_length=2), k: int = Query(10, ge=1, le=50)):
     t = time.perf_counter()
     results = hybrid_search(q, k)
     out = []
@@ -36,4 +41,4 @@ def search(q: str = Query(..., min_length=2), k: int = Query(10, ge=1, le=50)):
             "url": f"https://github.com/{repo}/blob/HEAD/{path}#L{line}-L{end}",
         })
     return {"query": q, "took_ms": round((time.perf_counter() - t) * 1000),
-            "results": out}
+            "timings": dict(TIMINGS), "results": out}
