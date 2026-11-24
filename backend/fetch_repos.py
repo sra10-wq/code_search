@@ -1,7 +1,7 @@
 import os, subprocess, requests
 from tqdm import tqdm
 
-HEADERS = {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"}
+HEADERS = {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"} if os.environ.get("GITHUB_TOKEN") else {}
 OUT = "data/repos"
 
 def top_repos(n=100):
