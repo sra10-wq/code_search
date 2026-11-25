@@ -30,7 +30,7 @@ export default function App() {
   return (
     <main className="page">
       <h1>Code Search</h1>
-      <p className="sub">Hybrid keyword + semantic search over 100 Python repositories</p>
+      <p className="sub">Hybrid keyword + semantic search over 100 Python repositories · deployed on AWS</p>
       <form onSubmit={search} className="bar">
         <input
           value={query}
