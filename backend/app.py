@@ -42,3 +42,8 @@ async def search(q: str = Query(..., min_length=2), k: int = Query(10, ge=1, le=
         })
     return {"query": q, "took_ms": round((time.perf_counter() - t) * 1000),
             "timings": dict(TIMINGS), "results": out}
+
+# serve the built React app at / (API routes above take priority)
+from fastapi.staticfiles import StaticFiles
+if os.path.isdir("frontend/dist"):
+    app.mount("/", StaticFiles(directory="frontend/dist", html=True), name="ui")

@@ -3,7 +3,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { oneLight } from "react-syntax-highlighter/dist/esm/styles/prism";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = import.meta.env.DEV ? "http://127.0.0.1:8000" : "";
 
 export default function App() {
   const [query, setQuery] = useState("");
