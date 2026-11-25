@@ -65,8 +65,27 @@ cd frontend && npm install && npm run build && cd ..
 python -m uvicorn app:app --app-dir backend --port 8000   # open http://127.0.0.1:8000
 ```
 
-Evaluate with `python eval/score.py`. A `Dockerfile` is included for containerized deployment.
+Evaluate with `python eval/score.py`.
+
+## Deployment
+
+Live on AWS, with every push to `main` deployed automatically:
+
+```
+git push ──► GitHub Actions ──► docker build ──► Amazon ECR
+                                                    │
+                      AWS Systems Manager (SSM) ◄───┘
+                                │
+                                ▼
+          EC2: docker pull ─► replace container ─► /health check
+                     (index data mounted from S3-synced volume)
+```
+
+- **Multi-stage Dockerfile:** Node builds the React app, then a slim Python image serves it through FastAPI. The image uses CPU-only PyTorch and has the embedding model built in, so startup needs no downloads.
+- **Data outside the image:** the 680 MB of index files live in S3. They're downloaded to the server once and attached to the container at runtime, so the image stays small and code deploys don't touch the data.
+- **CI/CD:** a GitHub Actions workflow builds the image, tags it with the commit hash, pushes it to ECR, then uses SSM Run Command to pull and restart the container. The workflow fails if `/health` doesn't respond.
+- **Security:** the server reads S3 and ECR through an IAM role, with no stored keys. GitHub deploys through SSM rather than SSH, so SSH stays limited to one IP. The deploy user can only push to this one registry and send commands to this one server.
 
 ## Tech
 
-Python · FastAPI · SQLite FTS5 · FAISS · sentence-transformers · React · Vite · Docker
+Python · FastAPI · SQLite FTS5 · FAISS · sentence-transformers · React · Vite · Docker · AWS (EC2, ECR, S3, SSM) · GitHub Actions
