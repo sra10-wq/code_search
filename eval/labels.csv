@@ -1,0 +1,991 @@
+query,id,repo,path,name,methods,relevant
+parse command line arguments,42505,FoundationAgents/OpenManus,app/mcp/server.py,parse_args,keyword+semantic+hybrid,1
+parse command line arguments,42396,FoundationAgents/OpenManus,run_mcp.py,parse_args,keyword+semantic+hybrid,1
+parse command line arguments,66183,chubin/cheat.sh,lib/standalone.py,parse_cmdline,keyword+hybrid,1
+parse command line arguments,95323,HKUDS/CLI-Anything,browser/agent-harness/cli_anything/browser/utils/domshell_backend.py,_assert_single_line,keyword+hybrid,0
+parse command line arguments,170064,ultralytics/yolov5,detect.py,main,keyword,0
+parse command line arguments,85920,google/langextract,scripts/create_provider_plugin.py,parse_arguments,keyword+hybrid,1
+parse command line arguments,89089,HKUDS/CLI-Anything,unrealinsights/agent-harness/cli_anything/unrealinsights/utils/unrealinsights_backend.py,build_insights_command_line,keyword,0
+parse command line arguments,30264,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,tools/pymss/cli.py,cmd_ensemble,keyword,0
+parse command line arguments,170410,ultralytics/yolov5,models/tf.py,parse_opt,keyword,1
+parse command line arguments,24106,anthropics/claude-plugins-official,plugins/claude-security/scripts/write_scan_meta.py,parse_options,keyword+semantic+hybrid,1
+parse command line arguments,57,Imbad0202/academic-research-skills,tools/release-discipline/scripts/check_command_invariants.py,_parse_args,semantic+hybrid,1
+parse command line arguments,30962,nvbn/thefuck,thefuck/argument_parser.py,parse,semantic+hybrid,1
+parse command line arguments,30585,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,RVCRealtimeVST/worker/rvc_worker.py,parse_args,semantic,1
+parse command line arguments,7432,Imbad0202/academic-research-skills,scripts/check_human_subjects_output_contract.py,main,semantic,0
+parse command line arguments,44109,AUTOMATIC1111/stable-diffusion-webui,scripts/prompts_from_file.py,cmdargs,semantic,1
+parse command line arguments,2755,Imbad0202/academic-research-skills,scripts/check_evidence_row_integration.py,_parser,semantic,1
+parse command line arguments,113333,httpie/cli,httpie/internal/daemon_runner.py,_parse_options,semantic,1
+parse command line arguments,170037,ultralytics/yolov5,export.py,parse_opt,hybrid,1
+parse command line arguments,170090,ultralytics/yolov5,segment/train.py,parse_opt,hybrid,1
+read a csv file,85552,google/langextract,langextract/io.py,_read_csv,keyword+semantic+hybrid,1
+read a csv file,174482,microsoft/qlib,scripts/dump_bin.py,read_as_df,keyword,1
+read a csv file,88952,HKUDS/CLI-Anything,unrealinsights/agent-harness/cli_anything/unrealinsights/core/analyze.py,_read_csv_rows,keyword+semantic+hybrid,1
+read a csv file,85555,google/langextract,langextract/io.py,load,keyword+hybrid,0
+read a csv file,89392,HKUDS/CLI-Anything,rekordbox/agent-harness/cli_anything/rekordbox/tests/test_smoke.py,test_data_file_present,keyword,0
+read a csv file,24792,D4Vinci/Scrapling,tests/spiders/test_result.py,test_to_csv_creates_file,keyword+hybrid,1
+read a csv file,115216,nextlevelbuilder/ui-ux-pro-max-skill,.claude/skills/ui-ux-pro-max/scripts/core.py,_load_csv_snapshot,keyword,1
+read a csv file,156732,browser-use/browser-use,tests/ci/test_browser.py,test_downloads_never_overwrite_an_earlier_file,keyword,0
+read a csv file,128450,MemPalace/mempalace,mempalace/entity_detector.py,scan_for_detection,keyword,0
+read a csv file,173709,microsoft/qlib,qlib/rl/contrib/utils.py,read_order_file,keyword,1
+read a csv file,115257,nextlevelbuilder/ui-ux-pro-max-skill,.claude/skills/ui-ux-pro-max/scripts/validate_data.py,_read_rows,semantic,1
+read a csv file,67750,LAION-AI/Open-Assistant,scripts/data_augment/data_augment.py,read_data,semantic+hybrid,1
+read a csv file,176561,Yuan1z0825/nature-skills,skills/nature-figure/scripts/plot_templates.py,read_csv_rows,semantic+hybrid,1
+read a csv file,106170,scrapy/scrapy,tests/utils/feedexport.py,csv_header,semantic,0
+read a csv file,115290,nextlevelbuilder/ui-ux-pro-max-skill,.claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py,read_rows,semantic,1
+read a csv file,115093,google-research/bert,run_classifier.py,_read_tsv,semantic+hybrid,1
+read a csv file,21104,anthropics/claude-plugins-official,plugins/claude-for-manufacturing/skills/morning-plant-pulse/scripts/pulse_compute.py,read_csv,semantic+hybrid,1
+read a csv file,85364,google/langextract,tests/io_test.py,_load_csv,semantic,1
+read a csv file,99137,HKUDS/CLI-Anything,unimol_tools/agent-harness/cli_anything/unimol_tools/tests/test_full_e2e.py,temp_csv_file,hybrid,0
+read a csv file,97772,HKUDS/CLI-Anything,libreoffice/agent-harness/cli_anything/libreoffice/tests/test_full_e2e.py,test_calc_to_csv,hybrid,0
+retry an http request,156149,browser-use/browser-use,tests/ci/test_llm.py,test_a_responses_failure_inside_http_200_is_retried_once,keyword+hybrid,0
+retry an http request,168956,Panniantong/Agent-Reach,tests/test_web_channel.py,test_exa_does_not_retry_http_limits_or_access_denials,keyword+hybrid,0
+retry an http request,34807,usestrix/strix,tests/test_mcp_resilience.py,_http_error,keyword+hybrid,0
+retry an http request,160696,zhayujie/CowAgent,tests/test_weixin_timeout_is_not_success.py,test_an_http_error_is_raised_without_being_retried,keyword,0
+retry an http request,26285,D4Vinci/Scrapling,scrapling/engines/static.py,get,keyword,1
+retry an http request,26293,D4Vinci/Scrapling,scrapling/engines/static.py,get,keyword,1
+retry an http request,24748,D4Vinci/Scrapling,tests/fetchers/sync/test_requests_session.py,test_proxy_rotates_per_retry_attempt,keyword,0
+retry an http request,26286,D4Vinci/Scrapling,scrapling/engines/static.py,post,keyword,1
+retry an http request,26287,D4Vinci/Scrapling,scrapling/engines/static.py,put,keyword,1
+retry an http request,26294,D4Vinci/Scrapling,scrapling/engines/static.py,post,keyword,1
+retry an http request,171840,microsoft/qlib,qlib/utils/__init__.py,requests_with_retry,semantic+hybrid,1
+retry an http request,174622,microsoft/qlib,scripts/data_collector/cn_index/collector.py,retry_request,semantic,1
+retry an http request,24832,D4Vinci/Scrapling,tests/spiders/test_engine.py,retry_blocked_request,semantic,0
+retry an http request,146001,Alishahryar1/free-claude-code,src/free_claude_code/providers/openai_chat/behavior.py,retry_request_body,semantic,0
+retry an http request,26229,D4Vinci/Scrapling,scrapling/spiders/spider.py,retry_blocked_request,semantic,0
+retry an http request,145543,Alishahryar1/free-claude-code,src/free_claude_code/providers/admission.py,_retry_after_header,semantic,0
+retry an http request,15143,virattt/ai-hedge-fund,hedge_fund/llm/test_client.py,_http_response,semantic,0
+retry an http request,144487,Alishahryar1/free-claude-code,e2e/test_admin_vscode_chat.py,retry,semantic,0
+retry an http request,144397,Alishahryar1/free-claude-code,e2e/test_admin_integrations.py,retry,semantic,0
+retry an http request,105730,scrapy/scrapy,tests/test_downloadermiddleware_jsonvalidation.py,test_retry,semantic,0
+retry an http request,15758,virattt/ai-hedge-fund,hedge_fund/data/client.py,_request,hybrid,1
+retry an http request,35979,soimort/you-get,src/you_get/common.py,urlopen_with_retry,hybrid,1
+retry an http request,25098,D4Vinci/Scrapling,tests/spiders/test_spider.py,test_retry_blocked_request_default_returns_request,hybrid,0
+retry an http request,103877,scrapy/scrapy,tests/test_downloadermiddleware_retry.py,test_max_retry_times_setting,hybrid,0
+retry an http request,24856,D4Vinci/Scrapling,tests/spiders/test_engine.py,test_retry_request_has_dont_filter,hybrid,0
+retry an http request,32372,usestrix/strix,strix/interface/cloud/runner.py,_request_with_idempotency,hybrid,1
+load a yaml config file,29545,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,tools/pymss_core/config.py,load_config,keyword+hybrid,1
+load a yaml config file,57106,github/spec-kit,src/specify_cli/extensions/__init__.py,_load_yaml_config,keyword+semantic+hybrid,1
+load a yaml config file,29216,OpenBMB/VoxCPM,src/voxcpm/training/config.py,load_yaml_config,keyword+semantic+hybrid,1
+load a yaml config file,56690,github/spec-kit,src/specify_cli/workflows/catalog/_domain.py,_load_catalog_config,keyword,1
+load a yaml config file,56782,github/spec-kit,src/specify_cli/workflows/step/catalog/_domain.py,_load_catalog_config,keyword+hybrid,1
+load a yaml config file,169359,Panniantong/Agent-Reach,agent_reach/config.py,load,keyword,1
+load a yaml config file,123743,MemPalace/mempalace,tests/test_miner.py,test_load_config_resolution_order_and_shadow_warning,keyword,0
+load a yaml config file,170325,ultralytics/yolov5,utils/loggers/comet/__init__.py,check_dataset,keyword,0
+load a yaml config file,112141,oobabooga/textgen,modules/shared.py,load_user_config,keyword+hybrid,1
+load a yaml config file,66188,chubin/cheat.sh,lib/config.py,_load_config_from_file,keyword+semantic+hybrid,1
+load a yaml config file,177992,bilibili/GPT-SoVITS,GPT_SoVITS/AR/utils/io.py,load_yaml_config,semantic+hybrid,1
+load a yaml config file,176929,bilibili/GPT-SoVITS,tools/uvr5/bsroformer.py,get_config,semantic,1
+load a yaml config file,67934,LAION-AI/Open-Assistant,model/model_training/utils/utils.py,read_yamls,semantic+hybrid,1
+load a yaml config file,109052,EbookFoundation/free-programming-books,scripts/rtl_ltr_linter.py,load_config,semantic+hybrid,1
+load a yaml config file,67080,shiyu-coder/Kronos,finetune_csv/config_loader.py,_load_config,semantic,1
+load a yaml config file,67861,LAION-AI/Open-Assistant,model/model_training/check_dataset_counts.py,read_yaml,semantic+hybrid,1
+load a yaml config file,177616,bilibili/GPT-SoVITS,GPT_SoVITS/TTS_infer_pack/TTS.py,_load_configs,semantic,1
+write json to a file,159776,zhayujie/CowAgent,tests/test_atomic_write.py,test_json_write_creates_the_file,keyword+hybrid,0
+write json to a file,90111,HKUDS/CLI-Anything,lldb/agent-harness/cli_anything/lldb/utils/output.py,output_json,keyword+semantic+hybrid,0
+write json to a file,101706,HKUDS/CLI-Anything,nsight-graphics/agent-harness/cli_anything/nsight_graphics/utils/output.py,output_json,keyword+semantic+hybrid,0
+write json to a file,89096,HKUDS/CLI-Anything,unrealinsights/agent-harness/cli_anything/unrealinsights/utils/output.py,output_json,keyword+semantic+hybrid,0
+write json to a file,74344,Graphify-Labs/graphify,tests/test_lost_saved_semantic_nodes.py,test_to_json_writes_recluster_that_folds_file_mention,keyword+hybrid,0
+write json to a file,137888,Alishahryar1/free-claude-code,tests/config/test_logging_config.py,test_configure_logging_writes_json_to_file,keyword+hybrid,0
+write json to a file,14741,pallets/flask,src/flask/json/provider.py,dump,keyword,1
+write json to a file,167581,zhayujie/CowAgent,channel/web/core/_common.py,_read_config_file_for_write,keyword,0
+write json to a file,20569,soxoj/maigret,tests/test_idempotent_writes.py,test_write_meta_writes_when_existing_file_is_corrupt,keyword,0
+write json to a file,54472,github/spec-kit,tests/integrations/test_integration_state.py,test_write_integration_json_preserves_observer_and_regular_file,keyword,0
+write json to a file,67807,LAION-AI/Open-Assistant,model/model_eval/utils.py,write_to_json,semantic+hybrid,1
+write json to a file,90406,HKUDS/CLI-Anything,sbox/agent-harness/cli_anything/sbox/core/prefab.py,_write_json,semantic+hybrid,1
+write json to a file,86565,HKUDS/CLI-Anything,obs-studio/agent-harness/cli_anything/obs_studio/utils/obs_utils.py,save_json,semantic,1
+write json to a file,176861,bilibili/GPT-SoVITS,tools/subfix_webui.py,b_save_json,semantic,1
+write json to a file,7939,Imbad0202/academic-research-skills,scripts/test_review_criteria_binding.py,_write_json,semantic,1
+write json to a file,8068,Imbad0202/academic-research-skills,scripts/test_check_670_revision_roadmap_integration.py,_write_json,semantic,1
+write json to a file,4207,Imbad0202/academic-research-skills,scripts/test_content_coverage_advisory.py,_write_json,semantic,1
+write json to a file,100625,HKUDS/CLI-Anything,macrocli/agent-harness/cli_anything/macrocli/backends/file_transform.py,_json_set,hybrid,0
+write json to a file,64917,NanmiCoder/MediaCrawler,tools/async_file_writer.py,write_single_item_to_json,hybrid,1
+resize an image,17587,lllyasviel/Fooocus,modules/util.py,resize_image,keyword+semantic+hybrid,1
+resize an image,44843,AUTOMATIC1111/stable-diffusion-webui,modules/images.py,resize_image,keyword+semantic+hybrid,1
+resize an image,153930,huggingface/pytorch-image-models,timm/data/transforms.py,__call__,keyword+hybrid,1
+resize an image,170110,ultralytics/yolov5,tests/test_invariant_common.py,test_scale_image_many_masks,keyword,0
+resize an image,68680,lm-sys/FastChat,tests/test_image_utils.py,test_resize_large_image_and_send_to_moderation_filter,keyword,0
+resize an image,68681,lm-sys/FastChat,tests/test_image_utils.py,test_dont_resize_if_max_image_size_is_none,keyword,0
+resize an image,154002,huggingface/pytorch-image-models,timm/data/naflex_transforms.py,forward,keyword+hybrid,0
+resize an image,163743,zhayujie/CowAgent,tests/test_image_gen_compress_format.py,test_resized_image_keeps_source_format,keyword,0
+resize an image,68679,lm-sys/FastChat,tests/test_image_utils.py,test_dont_resize_if_less_than_max,keyword,0
+resize an image,153942,huggingface/pytorch-image-models,timm/data/transforms.py,__call__,keyword+hybrid,1
+resize an image,175881,Yuan1z0825/nature-skills,skills/nature-image2ppt/cli/image2ppt/runtime/_page_artifacts.py,fit_image,semantic+hybrid,1
+resize an image,44477,AUTOMATIC1111/stable-diffusion-webui,modules/ui.py,resize_from_to_html,semantic,0
+resize an image,92260,HKUDS/CLI-Anything,docs/scripts/freecad_live_preview_demo.py,fit_image,semantic+hybrid,1
+resize an image,69395,lm-sys/FastChat,fastchat/serve/vision/image.py,resize_image_and_return_image_in_bytes,semantic+hybrid,1
+resize an image,111475,hiyouga/LlamaFactory,src/llamafactory/data/mm_plugin.py,_preprocess_image,semantic+hybrid,1
+resize an image,111425,hiyouga/LlamaFactory,src/llamafactory/data/mm_plugin.py,_preprocess_image,semantic+hybrid,1
+resize an image,154004,huggingface/pytorch-image-models,timm/data/naflex_transforms.py,get_params,semantic,0
+resize an image,44832,AUTOMATIC1111/stable-diffusion-webui,modules/upscaler.py,upscale,semantic,1
+compute cosine similarity,67520,LAION-AI/Open-Assistant,backend/oasst_backend/utils/similarity_functions.py,cos_sim_torch,keyword+hybrid,1
+compute cosine similarity,67519,LAION-AI/Open-Assistant,backend/oasst_backend/utils/similarity_functions.py,cos_sim,keyword+semantic+hybrid,1
+compute cosine similarity,68669,lm-sys/FastChat,playground/test_embedding/test_semantic_search.py,cosine_similarity,keyword+semantic+hybrid,1
+compute cosine similarity,133170,TheAlgorithms/Python,machine_learning/similarity_search.py,cosine_similarity,keyword+semantic+hybrid,1
+compute cosine similarity,68668,lm-sys/FastChat,playground/test_embedding/test_sentence_similarity.py,print_cosine_similarity,keyword+semantic+hybrid,1
+compute cosine similarity,165294,zhayujie/CowAgent,agent/tools/mcp/tool_retrieval.py,cosine_similarity,keyword+semantic+hybrid,1
+compute cosine similarity,165295,zhayujie/CowAgent,agent/tools/mcp/tool_retrieval.py,select_mcp_tools,keyword,0
+compute cosine similarity,129827,MemPalace/mempalace,benchmarks/model_eval/metrics.py,cosine_similarity,keyword+semantic+hybrid,1
+compute cosine similarity,122655,MemPalace/mempalace,tests/test_distance_metric.py,test_unknown_metric_falls_back_to_cosine,keyword+hybrid,0
+compute cosine similarity,122649,MemPalace/mempalace,tests/test_distance_metric.py,test_cosine_conversion,keyword+semantic+hybrid,0
+compute cosine similarity,172289,microsoft/qlib,qlib/contrib/model/pytorch_igmtf.py,cal_cos_similarity,semantic,1
+compute cosine similarity,129884,MemPalace/mempalace,benchmarks/lean_mempalace/bench_python.py,cosine_distances,semantic,1
+compute cosine similarity,127141,MemPalace/mempalace,mempalace/rooms.py,_cosine,semantic,1
+compute cosine similarity,172127,microsoft/qlib,qlib/contrib/model/pytorch_adarnn.py,cosine,hybrid,1
+tokenize text,85660,google/langextract,langextract/core/tokenizer.py,tokenize,keyword+semantic+hybrid,1
+tokenize text,85668,google/langextract,langextract/core/tokenizer.py,tokenize,keyword+semantic+hybrid,1
+tokenize text,85530,google/langextract,langextract/chunking.py,get_token_interval_text,keyword,0
+tokenize text,110146,hiyouga/LlamaFactory,tests/data/test_template.py,_check_tokenization,keyword,0
+tokenize text,85698,google/langextract,langextract/core/data.py,tokenized_text,keyword+semantic+hybrid,1
+tokenize text,142011,Alishahryar1/free-claude-code,tests/api/test_request_utils.py,test_special_token_text_is_counted_as_plain_text,keyword,0
+tokenize text,85599,google/langextract,langextract/resolver.py,_tokenize_with_lowercase,keyword,1
+tokenize text,85896,google/langextract,benchmarks/utils.py,analyze_tokenization,keyword,0
+tokenize text,85693,google/langextract,langextract/core/data.py,tokenized_text,keyword+hybrid,1
+tokenize text,136184,AntonOsika/gpt-engineer,gpt_engineer/core/token_usage.py,num_tokens,keyword+hybrid,0
+tokenize text,44648,AUTOMATIC1111/stable-diffusion-webui,modules/sd_hijack_clip.py,tokenize,semantic,1
+tokenize text,85669,google/langextract,langextract/core/tokenizer.py,tokenize,semantic+hybrid,1
+tokenize text,44638,AUTOMATIC1111/stable-diffusion-webui,modules/sd_hijack_clip.py,tokenize,semantic+hybrid,1
+tokenize text,115057,google-research/bert,tokenization.py,tokenize,semantic,1
+tokenize text,29161,OpenBMB/VoxCPM,scripts/train_voxcpm_finetune.py,tokenize,semantic+hybrid,1
+tokenize text,115066,google-research/bert,tokenization.py,tokenize,semantic,1
+tokenize text,45462,AUTOMATIC1111/stable-diffusion-webui,modules/models/sd3/other_impls.py,tokenize_with_weights,semantic,1
+tokenize text,85875,google/langextract,benchmarks/fuzzy_benchmark.py,_tokenize_words,hybrid,1
+tokenize text,115052,google-research/bert,tokenization.py,whitespace_tokenize,hybrid,1
+send an email,117846,sansan0/TrendRadar,trendradar/notification/dispatcher.py,_send_email,keyword+semantic+hybrid,1
+send an email,104349,scrapy/scrapy,tests/test_extension_statsmailer.py,test_spider_closed_sends_email,keyword+hybrid,0
+send an email,43756,521xueweihan/HelloGitHub,script/github_bot/github_bot.py,send_email,keyword+hybrid,1
+send an email,118369,sansan0/TrendRadar,mcp_server/tools/notification.py,_send_email,keyword+semantic+hybrid,1
+send an email,32298,usestrix/strix,strix/interface/viewer/server.py,_handle_otp_verify,keyword,0
+send an email,118303,sansan0/TrendRadar,mcp_server/server.py,send_notification,keyword,0
+send an email,32297,usestrix/strix,strix/interface/viewer/server.py,_handle_otp_start,keyword,0
+send an email,91945,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/commands/campaigns.py,_cmd_test,keyword,0
+send an email,33569,usestrix/strix,strix/telemetry/posthog.py,viewer_email_event,keyword,0
+send an email,32301,usestrix/strix,strix/interface/viewer/server.py,_handle_feedback,keyword+hybrid,0
+send an email,18358,9001/copyparty,tests/util.py,send,semantic+hybrid,0
+send an email,167299,zhayujie/CowAgent,channel/channel.py,send,semantic,0
+send an email,161124,zhayujie/CowAgent,tests/test_scheduler_skill_group.py,send,semantic,0
+send an email,26875,VectifyAI/PageIndex,tests/test_local_chat.py,sent,semantic,0
+send an email,160993,zhayujie/CowAgent,tests/test_scheduler_delivery_failure_no_rerun.py,send,semantic,0
+send an email,157883,zhayujie/CowAgent,plugins/linkai/linkai.py,_send_info,semantic,0
+send an email,106671,scrapy/scrapy,scrapy/mail.py,_sent_ok,semantic,0
+send an email,164471,zhayujie/CowAgent,tests/test_linkai_midjourney_send.py,send,semantic,0
+send an email,117891,sansan0/TrendRadar,trendradar/notification/senders.py,send_to_email,hybrid,1
+send an email,132341,TheAlgorithms/Python,strings/is_valid_email_address.py,is_valid_email_address,hybrid,1
+send an email,42783,ashishpatel26/500-AI-Agents-Projects,agents/05-email-drafting-agent/agent.py,build_email_crew,hybrid,0
+send an email,32277,usestrix/strix,strix/interface/viewer/auth.py,feedback_submit,hybrid,0
+connect to a database,127710,MemPalace/mempalace,mempalace/knowledge_graph.py,close,keyword+hybrid,0
+connect to a database,124198,MemPalace/mempalace,tests/test_config.py,test_connect_sqlite_read_stays_read_only_for_a_rollback_journal_database,keyword,0
+connect to a database,141238,Alishahryar1/free-claude-code,tests/runtime/test_sqlite_database.py,test_transactions_reuse_connections_until_database_closes,keyword+hybrid,0
+connect to a database,14411,pallets/flask,examples/tutorial/flaskr/db.py,close_db,keyword+hybrid,0
+connect to a database,64885,NanmiCoder/MediaCrawler,database/db.py,close,keyword,0
+connect to a database,97277,HKUDS/CLI-Anything,cc-switch/agent-harness/cli_anything/ccswitch/utils/db.py,connect_db,keyword+hybrid,1
+connect to a database,124196,MemPalace/mempalace,tests/test_config.py,test_connect_sqlite_read_reads_a_wal_database_without_sidecars,keyword,0
+connect to a database,165824,zhayujie/CowAgent,agent/memory/storage.py,close,keyword+hybrid,0
+connect to a database,76959,Graphify-Labs/graphify,tests/test_cli_export.py,test_graphdb_push_forwards_uri_and_credentials_without_a_database_connection,keyword,0
+connect to a database,14410,pallets/flask,examples/tutorial/flaskr/db.py,get_db,keyword+hybrid,1
+connect to a database,123041,MemPalace/mempalace,tests/test_repair.py,_connect,semantic+hybrid,1
+connect to a database,64888,NanmiCoder/MediaCrawler,database/mongodb_store_base.py,get_db,semantic+hybrid,1
+connect to a database,165781,zhayujie/CowAgent,agent/memory/conversation_store.py,_connect,semantic,1
+connect to a database,165782,zhayujie/CowAgent,agent/memory/conversation_store.py,_raw_connect,semantic,1
+connect to a database,64897,NanmiCoder/MediaCrawler,database/db_session.py,create_database_if_not_exists,semantic+hybrid,0
+connect to a database,94123,HKUDS/CLI-Anything,zotero/agent-harness/cli_anything/zotero/tests/_helpers.py,db_connect,semantic,1
+connect to a database,67402,LAION-AI/Open-Assistant,backend/oasst_backend/config.py,assemble_db_connection,semantic,0
+connect to a database,26046,D4Vinci/Scrapling,scrapling/core/storage.py,_setup_database,semantic+hybrid,1
+connect to a database,94135,HKUDS/CLI-Anything,zotero/agent-harness/cli_anything/zotero/utils/zotero_sqlite.py,connect_writable,semantic,1
+connect to a database,141278,Alishahryar1/free-claude-code,tests/runtime/test_sqlite_database.py,create,semantic,0
+hash a password,166316,zhayujie/CowAgent,agent/guest/store.py,hash_password,keyword+semantic+hybrid,1
+hash a password,158308,zhayujie/CowAgent,tests/test_guest_share.py,test_the_password_is_stored_hashed,keyword+hybrid,0
+hash a password,14406,pallets/flask,examples/tutorial/flaskr/auth.py,register,keyword,0
+hash a password,166318,zhayujie/CowAgent,agent/guest/store.py,set_password,keyword,1
+hash a password,158281,zhayujie/CowAgent,tests/test_guest_share.py,test_a_page_password_may_not_be_the_console_password,keyword,0
+hash a password,166310,zhayujie/CowAgent,agent/guest/store.py,_entry_of,keyword,0
+hash a password,18934,9001/copyparty,copyparty/pwhash.py,_cache_hash,keyword+semantic+hybrid,1
+hash a password,166319,zhayujie/CowAgent,agent/guest/store.py,_scope,keyword,0
+hash a password,76144,Graphify-Labs/graphify,tests/test_ingest.py,test_correction_in_frontmatter_and_body,keyword,0
+hash a password,166313,zhayujie/CowAgent,agent/guest/store.py,update_entry,keyword,0
+hash a password,44870,AUTOMATIC1111/stable-diffusion-webui,modules/images.py,string_hash,semantic,0
+hash a password,166317,zhayujie/CowAgent,agent/guest/store.py,verify_password,semantic,0
+hash a password,131376,TheAlgorithms/Python,searches/hill_climbing.py,__hash__,semantic,0
+hash a password,162392,zhayujie/CowAgent,tests/test_web_auth_token.py,_password_keyed,semantic+hybrid,0
+hash a password,132215,TheAlgorithms/Python,hashes/elf.py,elf_hash,semantic,0
+hash a password,167588,zhayujie/CowAgent,channel/web/core/_common.py,_password_tag,semantic+hybrid,0
+hash a password,177034,bilibili/GPT-SoVITS,GPT_SoVITS/process_ckpt.py,get_hash_from_file,semantic,0
+hash a password,134783,TheAlgorithms/Python,graphs/deep_clone_graph.py,__hash__,semantic,0
+hash a password,18939,9001/copyparty,copyparty/pwhash.py,cli,hybrid,1
+hash a password,133562,TheAlgorithms/Python,other/password.py,is_strong_password,hybrid,0
+hash a password,158004,zhayujie/CowAgent,plugins/godcmd/godcmd.py,_generate_temp_password,hybrid,0
+hash a password,18947,9001/copyparty,copyparty/sftpd.py,_check_auth_password,hybrid,0
+hash a password,106530,scrapy/scrapy,tests/test_settings/test_secrets.py,get_password,hybrid,0
+download a file from a url,97337,HKUDS/CLI-Anything,zoom/agent-harness/cli_anything/zoom/zoom_cli.py,recording_download,keyword,0
+download a file from a url,166512,zhayujie/CowAgent,agent/skills/service.py,_download_file,keyword+hybrid,1
+download a file from a url,53022,github/spec-kit,tests/specify_cli/bundles/test_sources.py,test_download_manifest_rejects_file_url,keyword,0
+download a file from a url,47826,github/spec-kit,tests/test_workflow_step_submission.py,test_invalid_canonical_download_urls_prevent_file_fetch,keyword,0
+download a file from a url,44532,AUTOMATIC1111/stable-diffusion-webui,modules/modelloader.py,load_file_from_url,keyword,1
+download a file from a url,170180,ultralytics/yolov5,utils/downloads.py,safe_download,keyword,1
+download a file from a url,47827,github/spec-kit,tests/test_workflow_step_submission.py,test_canonical_download_url_is_required,keyword,0
+download a file from a url,17704,lllyasviel/Fooocus,modules/model_loader.py,load_file_from_url,keyword+hybrid,1
+download a file from a url,167378,zhayujie/CowAgent,channel/dingtalk/dingtalk_channel.py,get_image_download_url,keyword,0
+download a file from a url,164966,zhayujie/CowAgent,agent/tools/web_fetch/web_fetch.py,_is_document_url,keyword,0
+download a file from a url,111938,oobabooga/textgen,extensions/superbooga/download_urls.py,download_single,semantic,1
+download a file from a url,65904,NanmiCoder/MediaCrawler,api/routers/data.py,download_file,semantic,0
+download a file from a url,87122,HKUDS/CLI-Anything,firefly-iii/agent-harness/cli_anything/firefly_iii/utils/firefly_iii_backend.py,download_attachment,semantic+hybrid,0
+download a file from a url,36376,soimort/you-get,src/you_get/extractors/coub.py,download_url,semantic,1
+download a file from a url,164339,zhayujie/CowAgent,tests/test_reply_file_name.py,download,semantic,0
+download a file from a url,169512,Panniantong/Agent-Reach,agent_reach/runtime/browser.py,_download,semantic,1
+download a file from a url,111883,oobabooga/textgen,extensions/superboogav2/download_urls.py,_download_single,semantic,1
+download a file from a url,85890,google/langextract,benchmarks/utils.py,download_text,semantic,1
+download a file from a url,107447,scrapy/scrapy,scrapy/core/downloader/handlers/file.py,download_request,semantic,0
+download a file from a url,160111,zhayujie/CowAgent,tests/test_wechatcom_file_tmp_cleanup.py,_download,semantic,0
+download a file from a url,170179,ultralytics/yolov5,utils/downloads.py,curl_download,hybrid,1
+download a file from a url,30409,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,tools/pymss/model_download.py,_download_file,hybrid,1
+download a file from a url,167409,zhayujie/CowAgent,channel/discord/discord_channel.py,_download_file_reply,hybrid,1
+download a file from a url,171785,microsoft/qlib,qlib/tests/data.py,download,hybrid,1
+download a file from a url,168342,zhayujie/CowAgent,channel/telegram/telegram_channel.py,_download_file_reply,hybrid,1
+download a file from a url,16055,lllyasviel/Fooocus,ldm_patched/k_diffusion/utils.py,download_file,hybrid,1
+download a file from a url,164524,zhayujie/CowAgent,tests/test_qq_safe_filename.py,fake_download_to_file,hybrid,0
+parse a date string,47078,github/spec-kit,tests/test_resolve_template_python_parity.py,test_python_variant_rejects_delegated_manifest_with_non_string_validated_field,keyword,0
+parse a date string,127860,MemPalace/mempalace,mempalace/date_window.py,parse_date_bound,keyword+hybrid,1
+parse a date string,119928,MemPalace/mempalace,tests/test_date_window.py,test_non_string_rejected,keyword+hybrid,0
+parse a date string,12300,Imbad0202/academic-research-skills,scripts/adapters/obsidian.py,_coerce_year,keyword,0
+parse a date string,9612,Imbad0202/academic-research-skills,scripts/temporal_integrity_audit.py,_date_to_interval,keyword,0
+parse a date string,91085,HKUDS/CLI-Anything,nslogger/agent-harness/cli_anything/nslogger/nslogger_cli.py,_parse_dt,keyword+semantic+hybrid,1
+parse a date string,124231,MemPalace/mempalace,tests/test_config.py,test_iso_date_rejects_non_string,keyword,0
+parse a date string,172576,microsoft/qlib,qlib/contrib/online/user.py,get_latest_trading_date,keyword,0
+parse a date string,12516,Imbad0202/academic-research-skills,scripts/adapters/tests/test_zotero.py,test_year_is_read_from_a_date_string,keyword,0
+parse a date string,12517,Imbad0202/academic-research-skills,scripts/adapters/tests/test_zotero.py,test_date_string_without_a_clear_year_is_unparseable,keyword,0
+parse a date string,129770,MemPalace/mempalace,benchmarks/longmemeval_bench.py,parse_question_date,semantic+hybrid,1
+parse a date string,172621,microsoft/qlib,qlib/contrib/data/dataset.py,_get_date_parse_fn,semantic+hybrid,1
+parse a date string,129765,MemPalace/mempalace,benchmarks/longmemeval_bench.py,parse_question_date,semantic+hybrid,1
+parse a date string,174323,microsoft/qlib,examples/benchmarks/TRA/src/dataset.py,_get_date_parse_fn,semantic+hybrid,1
+parse a date string,21115,anthropics/claude-plugins-official,plugins/claude-for-manufacturing/skills/morning-plant-pulse/scripts/pulse_compute.py,parse_day,semantic,1
+parse a date string,7877,Imbad0202/academic-research-skills,scripts/check_version_consistency.py,_parse_iso_date,semantic+hybrid,1
+parse a date string,4054,Imbad0202/academic-research-skills,scripts/build_review_pathway_rule_trace.py,_date,semantic,1
+parse a date string,83377,virgiliojr94/book-to-skill,tools/ci/issue_first.py,parse_iso8601,semantic,1
+parse a date string,5292,Imbad0202/academic-research-skills,scripts/resolve_review_target_context.py,_date,semantic,1
+parse a date string,126917,MemPalace/mempalace,tests/mcp/test_read_tools.py,test_parse_date_filter_date_only,hybrid,0
+parse a date string,127488,MemPalace/mempalace,mempalace/miner.py,_extract_content_date,hybrid,0
+create a directory if it does not exist,47586,github/spec-kit,tests/test_timestamp_branches.py,test_allow_existing_creates_feature_dir_when_missing,keyword+hybrid,0
+create a directory if it does not exist,179324,Z4nzu/hackingtool,src/hackingtool/config.py,get_tools_dir,keyword+hybrid,1
+create a directory if it does not exist,47597,github/spec-kit,tests/test_timestamp_branches.py,test_dry_run_no_spec_dir_created,keyword+hybrid,0
+create a directory if it does not exist,47609,github/spec-kit,tests/test_timestamp_branches.py,test_ps_dry_run_no_spec_dir_created,keyword+hybrid,0
+create a directory if it does not exist,58419,psf/black,tests/test_black.py,test_cache_dir_option_with_no_cache_does_not_create_directory,keyword,0
+create a directory if it does not exist,981,Imbad0202/academic-research-skills,scripts/test_dispatch_e4_panel.py,test_an_empty_bundle_dir_does_not_block_the_refusal_record,keyword,0
+create a directory if it does not exist,118802,MemPalace/mempalace,tests/test_backups.py,test_copy_palace_dir_says_nothing_about_a_backup_it_never_started,keyword,0
+create a directory if it does not exist,127923,MemPalace/mempalace,mempalace/wal.py,_ensure_wal,keyword,0
+create a directory if it does not exist,87401,HKUDS/CLI-Anything,calibre/agent-harness/cli_anything/calibre/tests/test_core.py,test_export_creates_output_dir,keyword,0
+create a directory if it does not exist,126539,MemPalace/mempalace,tests/mcp/test_protocol.py,test_wal_log_creates_dir_lazily_on_first_write,keyword,0
+create a directory if it does not exist,174433,microsoft/qlib,examples/benchmarks/TFT/libs/utils.py,create_folder_if_not_exist,semantic+hybrid,1
+create a directory if it does not exist,56085,github/spec-kit,src/specify_cli/file_helper.py,directory_exists,semantic+hybrid,0
+create a directory if it does not exist,60414,exo-explore/exo,src/exo/utils/fs.py,ensure_directory_exists,semantic+hybrid,1
+create a directory if it does not exist,99220,HKUDS/CLI-Anything,unimol_tools/agent-harness/cli_anything/unimol_tools/tests/test_storage.py,test_nonexistent_directory,semantic,0
+create a directory if it does not exist,107608,scrapy/scrapy,scrapy/pipelines/files.py,_mkdir,semantic,1
+create a directory if it does not exist,57135,github/spec-kit,src/specify_cli/extensions/__init__.py,_ensure_usable,semantic,0
+create a directory if it does not exist,85848,google/langextract,examples/ollama/demo_ollama.py,ensure_output_directory,semantic+hybrid,1
+create a directory if it does not exist,100813,HKUDS/CLI-Anything,godot/agent-harness/cli_anything/godot/core/project.py,create_project,semantic,0
+create a directory if it does not exist,30891,nvbn/thefuck,thefuck/conf.py,_setup_user_dir,semantic,1
+create a directory if it does not exist,48899,github/spec-kit,tests/specify_cli/artifacts/conftest.py,non_project,semantic,0
+create a directory if it does not exist,60413,exo-explore/exo,src/exo/utils/fs.py,ensure_parent_directory_exists,hybrid,1
+create a directory if it does not exist,121137,MemPalace/mempalace,tests/test_readme_claims.py,test_i18n_directory_exists,hybrid,0
+read environment variables,15082,virattt/ai-hedge-fund,hedge_fund/llm/registry.py,env_var_for,keyword+semantic+hybrid,0
+read environment variables,99332,HKUDS/CLI-Anything,siyuan/agent-harness/cli_anything/siyuan/tests/test_core.py,test_load_config_from_env,keyword+hybrid,0
+read environment variables,117034,anthropics/skills,skills/claude-api/shared/preserved-thinking-migration/drop_block_probe.py,read_credentials,keyword,0
+read environment variables,130681,asgeirtj/system_prompts_leaks,Anthropic/claude-code/skills/claude-api/shared/preserved-thinking-migration/drop_block_probe.py,read_credentials,keyword,0
+read environment variables,157065,browser-use/browser-use,browser_use/config.py,load_env,keyword+hybrid,1
+read environment variables,157789,zhayujie/CowAgent,config.py,_sync_skill_config_to_env,keyword,0
+read environment variables,127921,MemPalace/mempalace,mempalace/_blas_threads.py,cap_server_blas_threads,keyword,0
+read environment variables,57922,github/spec-kit,src/specify_cli/authentication/base.py,resolve_token,keyword,0
+read environment variables,35151,usestrix/strix,tests/test_install_script.py,_create_installer_environment,keyword,0
+read environment variables,169861,p-e-w/heretic,src/heretic/config.py,model_validate_init_only,keyword,0
+read environment variables,169361,Panniantong/Agent-Reach,agent_reach/config.py,get,semantic+hybrid,0
+read environment variables,17553,lllyasviel/Fooocus,modules/config.py,get_config_path,semantic,0
+read environment variables,165566,zhayujie/CowAgent,agent/tools/env_config/env_config.py,_reload_env,semantic+hybrid,1
+read environment variables,42754,FoundationAgents/OpenManus,tests/sandbox/test_docker_terminal.py,test_environment_variables,semantic+hybrid,0
+read environment variables,166523,zhayujie/CowAgent,agent/skills/config.py,has_env_var,semantic+hybrid,1
+read environment variables,111675,hiyouga/LlamaFactory,src/llamafactory/extras/misc.py,is_env_enabled,semantic+hybrid,1
+read environment variables,6867,Imbad0202/academic-research-skills,scripts/dispatch_e4_panel.py,subject_environment,semantic,0
+read environment variables,104127,scrapy/scrapy,tests/test_utils_shell.py,_env,semantic,0
+read environment variables,60688,exo-explore/exo,src/exo/shared/constants.py,_get_xdg_dir,semantic,0
+read environment variables,14459,pallets/flask,src/flask/config.py,from_envvar,hybrid,1
+read environment variables,40174,ifixai-ai/iFixAi,ifixai/cli/init.py,load_dotenv_file,hybrid,1
+set up logging,163944,zhayujie/CowAgent,tests/test_shared_db_recovery.py,setUp,keyword+hybrid,0
+set up logging,103893,scrapy/scrapy,tests/test_downloadermiddleware_retry.py,test_give_up_log_level_setting,keyword+hybrid,0
+set up logging,163926,zhayujie/CowAgent,tests/test_shared_db_recovery.py,setUp,keyword+hybrid,0
+set up logging,103858,scrapy/scrapy,tests/test_downloadermiddleware_retry.py,test_give_up_log_level_setting,keyword+hybrid,0
+set up logging,98263,HKUDS/CLI-Anything,wiremock/agent-harness/cli_anything/wiremock/tests/test_core.py,setUp,keyword+hybrid,0
+set up logging,63008,exo-explore/exo,src/exo/worker/tests/unittests/test_runner/test_runner_steps_time_out.py,queued_logging,keyword,0
+set up logging,107028,scrapy/scrapy,scrapy/downloadermiddlewares/retry.py,get_retry_request,keyword,0
+set up logging,60615,exo-explore/exo,src/exo/shared/logging.py,logger_setup,keyword+semantic+hybrid,1
+set up logging,156316,browser-use/browser-use,tests/ci/test_harness_cloud.py,test_cli_mcp_keeps_the_users_chrome_where_it_can_be_set_up,keyword,0
+set up logging,107029,scrapy/scrapy,scrapy/downloadermiddlewares/retry.py,__init__,keyword,0
+set up logging,68722,lm-sys/FastChat,fastchat/utils.py,build_logger,semantic+hybrid,1
+set up logging,108787,luongnv89/claude-howto,scripts/tests/conftest.py,logger,semantic+hybrid,0
+set up logging,20052,soxoj/maigret,maigret/web/app.py,setup_logger,semantic+hybrid,1
+set up logging,168566,zhayujie/CowAgent,common/log.py,_get_logger,semantic+hybrid,1
+set up logging,101749,2noise/ChatTTS,tools/logger/log.py,get_logger,semantic,1
+set up logging,26077,D4Vinci/Scrapling,scrapling/core/utils/_utils.py,setup_logger,semantic,1
+set up logging,40224,ifixai-ai/iFixAi,ifixai/observability/logging.py,configure_logging,semantic,1
+set up logging,108673,luongnv89/claude-howto,scripts/build_website.py,setup_logging,semantic,1
+set up logging,171751,microsoft/qlib,qlib/log.py,logger,semantic,0
+run a shell command,87729,HKUDS/CLI-Anything,cli-hub/tests/test_cli_hub.py,test_run_command_uses_shell_false_for_simple_command,keyword,0
+run a shell command,30993,nvbn/thefuck,thefuck/shells/generic.py,to_shell,keyword+semantic+hybrid,0
+run a shell command,46408,github/spec-kit,tests/test_utils.py,test_run_command_has_no_shell_parameter,keyword,0
+run a shell command,87730,HKUDS/CLI-Anything,cli-hub/tests/test_cli_hub.py,test_run_command_uses_shell_true_for_and_operator,keyword+hybrid,0
+run a shell command,30992,nvbn/thefuck,thefuck/shells/generic.py,from_shell,keyword+hybrid,0
+run a shell command,179088,Z4nzu/hackingtool,tests/test_core.py,test_run_shell_logs_command_and_exit_code,keyword,0
+run a shell command,42623,FoundationAgents/OpenManus,app/tool/file_operators.py,run_command,keyword+hybrid,1
+run a shell command,87561,HKUDS/CLI-Anything,cli-hub/cli_hub/installer.py,_run_command,keyword+semantic+hybrid,1
+run a shell command,87728,HKUDS/CLI-Anything,cli-hub/tests/test_cli_hub.py,test_run_command_uses_shell_true_for_pipe,keyword,0
+run a shell command,56314,github/spec-kit,src/specify_cli/_utils.py,run_command,keyword+semantic+hybrid,1
+run a shell command,68733,lm-sys/FastChat,fastchat/utils.py,run_cmd,semantic,1
+run a shell command,170876,shareAI-lab/learn-claude-code,s15_integrated_harness/code.py,_run_bash,semantic,1
+run a shell command,179451,Z4nzu/hackingtool,src/hackingtool/core.py,run,semantic,0
+run a shell command,179437,Z4nzu/hackingtool,src/hackingtool/core.py,_run_shell,semantic+hybrid,1
+run a shell command,115402,nextlevelbuilder/ui-ux-pro-max-skill,.claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py,run_command,semantic,1
+run a shell command,96127,HKUDS/CLI-Anything,web-yu-pri/agent-harness/cli_anything/web_yu_pri/tests/test_full_e2e.py,_run_cli,semantic,0
+run a shell command,25385,D4Vinci/Scrapling,tests/cli/test_cli.py,test_shell_command,semantic+hybrid,0
+run a shell command,171604,shareAI-lab/learn-claude-code,skills/agent-builder/references/tool-templates.py,run_bash,hybrid,1
+run a shell command,130176,asgeirtj/system_prompts_leaks,Meta/muse-code/skills/fleet-manager/scripts/fleet_manager.py,shell_run,hybrid,1
+validate an email address,132341,TheAlgorithms/Python,strings/is_valid_email_address.py,is_valid_email_address,keyword+semantic+hybrid,1
+validate an email address,143357,Alishahryar1/free-claude-code,tests/application/test_connected_accounts.py,test_display_identity_does_not_impersonate_an_email_address,keyword+hybrid,0
+validate an email address,135402,TheAlgorithms/Python,web_programming/emails_from_url.py,emails_from_url,keyword+hybrid,0
+validate an email address,97360,HKUDS/CLI-Anything,zoom/agent-harness/cli_anything/zoom/core/participants.py,add_registrant,keyword+hybrid,0
+validate an email address,11769,Imbad0202/academic-research-skills,scripts/test_crossref_client.py,test_refusal_message_never_carries_mailto,keyword+hybrid,0
+validate an email address,91762,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/tests/test_full_e2e.py,test_add_member,keyword,0
+validate an email address,91746,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/tests/test_core.py,test_generated_put_command_forwards_query_params,keyword,0
+validate an email address,91752,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/tests/test_core.py,test_create_members_alias_matches_generated_command,keyword,0
+validate an email address,91730,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/tests/test_core.py,test_put_forwards_query_params,keyword,0
+validate an email address,91764,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/tests/test_full_e2e.py,test_list_members,keyword,0
+validate an email address,9411,Imbad0202/academic-research-skills,scripts/chinese_literature_client.py,_valid_ncbi_email,semantic+hybrid,1
+validate an email address,20148,soxoj/maigret,tests/test_utils.py,test_is_plausible_username_rejects_emails,semantic+hybrid,0
+validate an email address,32275,usestrix/strix,strix/interface/viewer/auth.py,otp_start,semantic+hybrid,0
+validate an email address,16000,virattt/ai-hedge-fund,hedge_fund/fund/spec.py,_validation_message,semantic,0
+validate an email address,175333,Yuan1z0825/nature-skills,skills/nature-downloader/src/validators.py,validate_school_name,semantic,0
+validate an email address,122731,MemPalace/mempalace,tests/test_project_scanner.py,test_is_bot_does_not_flag_github_privacy_email,semantic,0
+validate an email address,67605,LAION-AI/Open-Assistant,backend/oasst_backend/api/v1/auth.py,auth_check,semantic,0
+validate an email address,162619,zhayujie/CowAgent,tests/test_security_ssrf_vision_redirect.py,_validate,semantic,0
+validate an email address,95274,HKUDS/CLI-Anything,browser/agent-harness/cli_anything/browser/utils/security.py,validate_url,semantic,0
+validate an email address,91763,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/tests/test_full_e2e.py,test_get_member,hybrid,0
+validate an email address,134425,TheAlgorithms/Python,maths/is_ipv6_address_valid.py,is_ipv6_address_valid,hybrid,0
+paginate api results,32431,usestrix/strix,strix/interface/cloud/render.py,_pagination_hint,keyword+hybrid,0
+paginate api results,91713,HKUDS/CLI-Anything,mailchimp/agent-harness/cli_anything/mailchimp/core/pagination.py,paginate,keyword+semantic+hybrid,1
+paginate api results,109734,666ghj/MiroFish,backend/tests/test_zep_edge_paging.py,test_pagination_uses_the_current_opaque_response_cursor,keyword,0
+paginate api results,141925,Alishahryar1/free-claude-code,tests/scripts/test_ci_timings.py,test_api_artifacts_are_paginated,keyword,0
+paginate api results,65479,NanmiCoder/MediaCrawler,media_platform/bilibili/client.py,search_video_by_keyword,keyword,0
+paginate api results,83387,virgiliojr94/book-to-skill,tools/ci/issue_first.py,fetch_paginated,keyword+semantic+hybrid,1
+paginate api results,65554,NanmiCoder/MediaCrawler,media_platform/xhs/client.py,get_note_sub_comments,keyword,0
+paginate api results,65553,NanmiCoder/MediaCrawler,media_platform/xhs/client.py,get_note_comments,keyword,0
+paginate api results,15757,virattt/ai-hedge-fund,hedge_fund/data/client.py,_get,keyword,0
+paginate api results,65808,NanmiCoder/MediaCrawler,media_platform/kuaishou/client.py,get_video_comments,keyword,0
+paginate api results,94864,HKUDS/CLI-Anything,jumpserver/agent-harness/cli_anything/jumpserver/core/session.py,paginate,semantic+hybrid,1
+paginate api results,36323,soimort/you-get,src/you_get/extractors/lizhi.py,lizhi_extract_playlist_info,semantic+hybrid,0
+paginate api results,27991,VectifyAI/PageIndex,pageindex/mcp_bridge.py,_list_paginated,semantic+hybrid,1
+paginate api results,94925,HKUDS/CLI-Anything,jumpserver/agent-harness/cli_anything/jumpserver/tests/test_core.py,test_paginate_single_page,semantic+hybrid,0
+paginate api results,97353,HKUDS/CLI-Anything,zoom/agent-harness/cli_anything/zoom/core/meetings.py,list_meetings,semantic+hybrid,0
+paginate api results,167166,zhayujie/CowAgent,cli/commands/skill.py,_list_remote,semantic,0
+paginate api results,145991,Alishahryar1/free-claude-code,src/free_claude_code/providers/openai_chat/provider.py,_fetch_paginated_models_payload,semantic,1
+paginate api results,134149,TheAlgorithms/Python,scripts/hacktoberfest_prep_update.py,_last_page_count,semantic,0
+paginate api results,94926,HKUDS/CLI-Anything,jumpserver/agent-harness/cli_anything/jumpserver/tests/test_core.py,test_paginate_multiple_pages,hybrid,0
+paginate api results,94927,HKUDS/CLI-Anything,jumpserver/agent-harness/cli_anything/jumpserver/tests/test_core.py,test_paginate_empty,hybrid,0
+cache function results,30929,nvbn/thefuck,thefuck/utils.py,cache,keyword+semantic+hybrid,1
+cache function results,110896,hiyouga/LlamaFactory,src/llamafactory/third_party/triton/utils.py,tensor_cache,keyword+hybrid,1
+cache function results,133481,TheAlgorithms/Python,other/lru_cache.py,cache_decorator_wrapper,keyword+hybrid,1
+cache function results,133505,TheAlgorithms/Python,other/lfu_cache.py,cache_decorator_wrapper,keyword+hybrid,1
+cache function results,133479,TheAlgorithms/Python,other/lru_cache.py,decorator,keyword+hybrid,1
+cache function results,133503,TheAlgorithms/Python,other/lfu_cache.py,decorator,keyword+hybrid,1
+cache function results,133480,TheAlgorithms/Python,other/lru_cache.py,cache_decorator_inner,keyword,1
+cache function results,133504,TheAlgorithms/Python,other/lfu_cache.py,cache_decorator_inner,keyword,1
+cache function results,45098,AUTOMATIC1111/stable-diffusion-webui,modules/processing.py,get_conds_with_caching,keyword,0
+cache function results,10302,Imbad0202/academic-research-skills,scripts/test_citation_existence_policy.py,test_oracle_h_recompute_is_pure_no_cache,keyword,0
+cache function results,44601,AUTOMATIC1111/stable-diffusion-webui,modules/cache.py,dump_cache,semantic+hybrid,0
+cache function results,106804,scrapy/scrapy,scrapy/resolver.py,_cache_result,semantic+hybrid,0
+cache function results,118510,sansan0/TrendRadar,mcp_server/services/cache_service.py,get_cache,semantic+hybrid,0
+cache function results,44605,AUTOMATIC1111/stable-diffusion-webui,modules/cache.py,cached_data_for_file,semantic+hybrid,1
+cache function results,44604,AUTOMATIC1111/stable-diffusion-webui,modules/cache.py,cache,semantic,0
+cache function results,18140,9001/copyparty,bin/partyfuse.py,get_cached_file,semantic,0
+cache function results,15860,virattt/ai-hedge-fund,hedge_fund/data/test_cached.py,test_refresh_busts_cache,semantic,0
+cache function results,15863,virattt/ai-hedge-fund,hedge_fund/data/test_cached.py,test_scalar_cached,semantic,0
+cache function results,107081,scrapy/scrapy,scrapy/downloadermiddlewares/httpcache.py,_cache_response,semantic,0
+rate limit requests,139560,Alishahryar1/free-claude-code,tests/providers/test_failure_reporting.py,test_authoritative_rate_limit_status_beats_invalid_request_body,keyword+hybrid,0
+rate limit requests,35442,usestrix/strix,tests/test_runner_root_prompt.py,_make_rate_limit_error,keyword+semantic+hybrid,0
+rate limit requests,176360,Yuan1z0825/nature-skills,skills/nature-academic-search/mcp-server/sources/arxiv.py,_enforce_rate_limit,keyword+semantic+hybrid,1
+rate limit requests,142885,Alishahryar1/free-claude-code,tests/api/test_retry_after_cooldown.py,rate_limit,keyword+semantic+hybrid,0
+rate limit requests,34359,usestrix/strix,tests/test_compaction.py,test_is_context_overflow_ignores_rate_limit_shaped_bad_request,keyword,0
+rate limit requests,37565,ifixai-ai/iFixAi,ifixai/core/grounding.py,_rate_limit_value,keyword+semantic+hybrid,0
+rate limit requests,33611,usestrix/strix,tests/test_execution_transient_retry.py,test_rate_limit_is_retried,keyword+semantic+hybrid,0
+rate limit requests,26588,VectifyAI/PageIndex,tests/test_local_chat.py,_model_rate_limited,keyword,0
+rate limit requests,168957,Panniantong/Agent-Reach,tests/test_web_channel.py,test_exa_hosted_limits_stop_as_rate_limited,keyword+hybrid,0
+rate limit requests,68312,LAION-AI/Open-Assistant,inference/server/main.py,setup_rate_limiter,keyword+hybrid,1
+rate limit requests,26193,D4Vinci/Scrapling,scrapling/spiders/engine.py,_rate_limiter,semantic+hybrid,1
+rate limit requests,61940,exo-explore/exo,src/exo/download/tests/fake_hub.py,rate_limited,semantic,0
+rate limit requests,20091,soxoj/maigret,tests/test_error_detection.py,test_http_429_is_rate_limit,semantic,0
+rate limit requests,176313,Yuan1z0825/nature-skills,skills/nature-academic-search/mcp-server/sources/pubmed.py,_throttle,semantic+hybrid,1
+rate limit requests,48708,github/spec-kit,tests/specify_cli/test_version_release.py,test_403_maps_to_rate_limited,semantic,0
+compute file checksum,46502,github/spec-kit,tests/test_github_workflows.py,test_community_catalog_records_computed_checksum_only_after_validation,keyword,0
+compute file checksum,105010,scrapy/scrapy,tests/test_pipeline_files.py,test_stat_file_checksum_algorithm,keyword+semantic+hybrid,0
+compute file checksum,104976,scrapy/scrapy,tests/test_pipeline_files.py,test_checksum_algorithm,keyword+hybrid,0
+compute file checksum,104977,scrapy/scrapy,tests/test_pipeline_files.py,test_checksum_algorithm_unsupported,keyword+hybrid,0
+compute file checksum,104964,scrapy/scrapy,tests/test_pipeline_files.py,test_file_not_expired_without_checksum,keyword,0
+compute file checksum,105020,scrapy/scrapy,tests/test_pipeline_files.py,test_stat_checksum_algorithm,keyword,0
+compute file checksum,47835,github/spec-kit,tests/test_workflow_step_submission.py,test_submitted_checksum_mismatch_fails,keyword,0
+compute file checksum,46501,github/spec-kit,tests/test_github_workflows.py,test_community_checksum_instructions_preserve_submitted_digest,keyword,0
+compute file checksum,105039,scrapy/scrapy,tests/test_pipeline_files.py,test_stat_checksum_algorithm,keyword+hybrid,0
+compute file checksum,56796,github/spec-kit,src/specify_cli/workflows/step/catalog/_versions.py,validate_checksums,keyword,0
+compute file checksum,36482,soimort/you-get,src/you_get/extractors/funshion.py,checksum,semantic+hybrid,0
+compute file checksum,111703,oobabooga/textgen,download-model.py,check_model_files,semantic+hybrid,1
+compute file checksum,45543,AUTOMATIC1111/stable-diffusion-webui,modules/textual_inversion/textual_inversion.py,checksum,semantic+hybrid,1
+compute file checksum,167157,zhayujie/CowAgent,cli/commands/skill.py,_verify_checksum,semantic+hybrid,0
+compute file checksum,45218,AUTOMATIC1111/stable-diffusion-webui,modules/hashes.py,calculate_sha256,semantic,1
+compute file checksum,17596,lllyasviel/Fooocus,modules/util.py,calculate_sha256,semantic,1
+compute file checksum,111718,oobabooga/textgen,one_click.py,calculate_file_hash,semantic,1
+compute file checksum,44904,AUTOMATIC1111/stable-diffusion-webui,modules/sysinfo.py,check,semantic,0
+compute file checksum,174514,microsoft/qlib,scripts/check_data_health.py,check_data,semantic,0
+compute file checksum,107606,scrapy/scrapy,scrapy/pipelines/files.py,stat_file,hybrid,1
+compute file checksum,107644,scrapy/scrapy,scrapy/pipelines/files.py,_file_downloaded,hybrid,1
+extract a zip archive,46949,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_extracts_safe_archive,keyword+semantic+hybrid,0
+extract a zip archive,46927,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_accepts_archive_with_prepended_data,keyword+semantic+hybrid,0
+extract a zip archive,178800,psf/requests,src/requests/utils.py,extract_zipped_paths,keyword+hybrid,1
+extract a zip archive,166549,zhayujie/CowAgent,agent/skills/archive.py,extract_archive,keyword+semantic+hybrid,1
+extract a zip archive,56232,github/spec-kit,src/specify_cli/_download_security.py,safe_extract_archive,keyword+semantic+hybrid,1
+extract a zip archive,46932,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_wraps_unsupported_zip_version,keyword+semantic+hybrid,0
+extract a zip archive,46928,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_rejects_central_entry_from_another_disk,keyword,0
+extract a zip archive,167156,zhayujie/CowAgent,cli/commands/skill.py,_safe_extractall,keyword,1
+extract a zip archive,46947,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_wraps_decompression_errors,keyword+hybrid,0
+extract a zip archive,46948,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_enforces_actual_member_size,keyword,0
+extract a zip archive,141909,Alishahryar1/free-claude-code,tests/scripts/test_ci_timings.py,archive,semantic,0
+extract a zip archive,31174,nvbn/thefuck,thefuck/rules/dirty_unzip.py,_zip_file,semantic,0
+extract a zip archive,101794,2noise/ChatTTS,ChatTTS/utils/dl.py,download_and_extract_zip,semantic,1
+extract a zip archive,31690,nvbn/thefuck,tests/rules/test_dirty_unzip.py,reset,semantic,0
+extract a zip archive,50163,github/spec-kit,tests/specify_cli/workflows/function/helpers.py,zip_package,semantic,0
+extract a zip archive,46909,github/spec-kit,tests/test_download_security.py,test_safe_extract_archive_has_format_parity,hybrid,0
+extract a zip archive,46922,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_rejects_zip64_extra_without_sentinel_before_zipfile,hybrid,0
+extract a zip archive,46925,github/spec-kit,tests/test_download_security.py,test_safe_extract_zip_rejects_unbounded_compression_before_zipfile,hybrid,0
+split a dataset into train and test,66855,shiyu-coder/Kronos,finetune/qlib_data_preprocess.py,prepare_dataset,keyword+semantic+hybrid,1
+split a dataset into train and test,133374,TheAlgorithms/Python,machine_learning/local_weighted_learning/local_weighted_learning.py,load_data,keyword,0
+split a dataset into train and test,67935,LAION-AI/Open-Assistant,model/model_training/utils/utils.py,train_val_dataset,keyword+semantic+hybrid,1
+split a dataset into train and test,68039,LAION-AI/Open-Assistant,model/model_training/custom_datasets/__init__.py,train_val_dataset,keyword+semantic+hybrid,1
+split a dataset into train and test,111525,hiyouga/LlamaFactory,src/llamafactory/data/data_utils.py,split_dataset,keyword+hybrid,1
+split a dataset into train and test,133343,TheAlgorithms/Python,machine_learning/random_forest_classifier.py,main,keyword,0
+split a dataset into train and test,133361,TheAlgorithms/Python,machine_learning/gaussian_naive_bayes.py,main,keyword,0
+split a dataset into train and test,148534,huggingface/pytorch-image-models,tests/test_train_resume.py,image_folder,keyword,0
+split a dataset into train and test,67840,LAION-AI/Open-Assistant,model/model_training/trainer_rm.py,get_train_dataloader,keyword,0
+split a dataset into train and test,148515,huggingface/pytorch-image-models,tests/test_multilabel.py,test_hfds_split_expression_uses_loaded_sample_count,keyword+hybrid,0
+split a dataset into train and test,174359,microsoft/qlib,examples/benchmarks/TFT/data_formatters/base.py,split_data,semantic,1
+split a dataset into train and test,68578,LAION-AI/Open-Assistant,data/datasets/youtube_subs_howto100M/youtube_subs_howto100M.py,_split_generators,semantic+hybrid,0
+split a dataset into train and test,68647,LAION-AI/Open-Assistant,data/datasets/soda_synthetic_dialogue/soda_synthetic_dialogue.py,_split_generators,semantic+hybrid,0
+split a dataset into train and test,68623,LAION-AI/Open-Assistant,data/datasets/mt_note_generation/mt_note_generation.py,_split_generators,semantic+hybrid,0
+split a dataset into train and test,135733,karpathy/nanochat,tasks/smoltalk.py,__init__,semantic,0
+split a dataset into train and test,135725,karpathy/nanochat,tasks/mmlu.py,__init__,semantic,0
+split a dataset into train and test,67114,shiyu-coder/Kronos,finetune_csv/finetune_base_model.py,_split_data_by_time,semantic,1
+split a dataset into train and test,68031,LAION-AI/Open-Assistant,model/model_training/custom_datasets/extra_rm_datasets.py,load_hellaswag,hybrid,0
+split a dataset into train and test,68030,LAION-AI/Open-Assistant,model/model_training/custom_datasets/extra_rm_datasets.py,load_shp,hybrid,0
+normalize a vector,165887,zhayujie/CowAgent,agent/memory/embedding/provider.py,_l2_normalize,keyword+semantic+hybrid,1
+normalize a vector,128859,MemPalace/mempalace,mempalace/backends/_remote_common.py,normalize_vectors,keyword+semantic+hybrid,1
+normalize a vector,121330,MemPalace/mempalace,tests/test_search_benchmark.py,test_weighted_rrf_can_favor_vector_rank_without_score_normalization,keyword+hybrid,0
+normalize a vector,96903,HKUDS/CLI-Anything,3MF/agent-harness/cli_anything/threemf/utils/threemf_backend.py,_axis_plane_normal,keyword+hybrid,0
+normalize a vector,113696,openai/gym,tests/wrappers/test_normalize.py,test_normalize_return_vector_env,keyword+hybrid,0
+normalize a vector,113695,openai/gym,tests/wrappers/test_normalize.py,test_normalize_observation_vector_env,keyword+hybrid,0
+normalize a vector,127843,MemPalace/mempalace,mempalace/embeddinggemma2.py,_validate_and_normalize,keyword+hybrid,1
+normalize a vector,93328,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/core/body.py,_validate_vec3,keyword,0
+normalize a vector,128531,MemPalace/mempalace,mempalace/searcher/candidates.py,_candidate_pool_limits,keyword,0
+normalize a vector,123431,MemPalace/mempalace,tests/test_media.py,test_store_media_asset_upserts_normalized_768d_vector_with_flat_metadata,keyword,0
+normalize a vector,174155,microsoft/qlib,tests/data_mid_layer_tests/test_processor.py,normalize,semantic+hybrid,0
+normalize a vector,114053,openai/gym,gym/wrappers/normalize.py,normalize,semantic,0
+normalize a vector,173536,microsoft/qlib,qlib/data/dataset/processor.py,__call__,semantic,0
+normalize a vector,132785,TheAlgorithms/Python,computer_vision/vision_transformer.py,layer_norm,semantic,0
+normalize a vector,174154,microsoft/qlib,tests/data_mid_layer_tests/test_processor.py,normalize,semantic,0
+normalize a vector,133345,TheAlgorithms/Python,machine_learning/mfcc.py,normalize,semantic,0
+normalize a vector,174706,microsoft/qlib,scripts/data_collector/yahoo/collector.py,normalize,semantic,0
+normalize a vector,114052,openai/gym,gym/wrappers/normalize.py,reset,semantic+hybrid,0
+normalize a vector,114051,openai/gym,gym/wrappers/normalize.py,step,hybrid,0
+save a model checkpoint,174435,microsoft/qlib,examples/benchmarks/TFT/libs/utils.py,save,keyword,
+save a model checkpoint,177191,bilibili/GPT-SoVITS,GPT_SoVITS/utils.py,save_checkpoint,keyword+semantic+hybrid,
+save a model checkpoint,30646,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,train/utils.py,save_checkpoint,keyword+semantic+hybrid,
+save a model checkpoint,110486,hiyouga/LlamaFactory,src/llamafactory/v1/plugins/trainer_plugins/distributed/interface.py,save_checkpoint,keyword+semantic+hybrid,
+save a model checkpoint,110496,hiyouga/LlamaFactory,src/llamafactory/v1/plugins/trainer_plugins/distributed/interface.py,save_checkpoint,keyword+hybrid,
+save a model checkpoint,170341,ultralytics/yolov5,utils/loggers/comet/__init__.py,on_model_save,keyword+semantic+hybrid,
+save a model checkpoint,156415,browser-use/browser-use,tests/ci/test_repl.py,test_checkpoint_saves_a_pydantic_model_as_json,keyword,
+save a model checkpoint,17407,lllyasviel/Fooocus,ldm_patched/modules/sd.py,save_checkpoint,keyword+hybrid,
+save a model checkpoint,110474,hiyouga/LlamaFactory,src/llamafactory/v1/plugins/trainer_plugins/distributed/deepspeed.py,save_checkpoint,keyword+hybrid,
+save a model checkpoint,111362,hiyouga/LlamaFactory,src/llamafactory/webui/common.py,get_save_dir,keyword+semantic+hybrid,
+save a model checkpoint,16329,lllyasviel/Fooocus,ldm_patched/contrib/external_model_merging.py,save_checkpoint,semantic+hybrid,
+save a model checkpoint,66473,zai-org/ChatGLM-6B,ptuning/trainer.py,_save,semantic,
+save a model checkpoint,66459,zai-org/ChatGLM-6B,ptuning/trainer.py,_save_checkpoint,semantic,
+save a model checkpoint,16341,lllyasviel/Fooocus,ldm_patched/contrib/external_model_merging.py,save,semantic,
+save a model checkpoint,13812,jingyaogong/minimind,trainer/trainer_utils.py,lm_checkpoint,semantic,
+save a model checkpoint,135912,karpathy/nanochat,nanochat/checkpoint_manager.py,save_checkpoint,hybrid,
+load a pretrained model,148656,huggingface/pytorch-image-models,tests/test_models.py,test_model_load_pretrained,keyword+semantic+hybrid,
+load a pretrained model,111012,hiyouga/LlamaFactory,src/llamafactory/model/model_utils/mod.py,load_mod_pretrained_model,keyword+semantic+hybrid,
+load a pretrained model,45242,AUTOMATIC1111/stable-diffusion-webui,modules/sd_disable_initialization.py,transformers_modeling_utils_load_pretrained_model,keyword,
+load a pretrained model,148657,huggingface/pytorch-image-models,tests/test_models.py,test_model_features_pretrained,keyword+semantic+hybrid,
+load a pretrained model,110970,hiyouga/LlamaFactory,src/llamafactory/model/model_utils/unsloth.py,load_unsloth_pretrained_model,keyword,
+load a pretrained model,152379,huggingface/pytorch-image-models,timm/models/_builder.py,load_custom_pretrained,keyword+semantic+hybrid,
+load a pretrained model,152422,huggingface/pytorch-image-models,timm/models/resnet.py,_create_resnet,keyword,
+load a pretrained model,150555,huggingface/pytorch-image-models,timm/models/regnet.py,_create_regnet,keyword+hybrid,
+load a pretrained model,150132,huggingface/pytorch-image-models,timm/models/rexnet.py,_create_rexnet,keyword,
+load a pretrained model,151344,huggingface/pytorch-image-models,timm/models/byobnet.py,_create_byobnet,keyword,
+load a pretrained model,111025,hiyouga/LlamaFactory,src/llamafactory/train/test_utils.py,load_train_model,semantic,
+load a pretrained model,111026,hiyouga/LlamaFactory,src/llamafactory/train/test_utils.py,load_infer_model,semantic,
+load a pretrained model,68859,lm-sys/FastChat,fastchat/model/model_adapter.py,load_model,semantic,
+load a pretrained model,68812,lm-sys/FastChat,fastchat/model/model_adapter.py,load_model,semantic+hybrid,
+load a pretrained model,110945,hiyouga/LlamaFactory,src/llamafactory/model/loader.py,load_model,semantic,
+load a pretrained model,68816,lm-sys/FastChat,fastchat/model/model_adapter.py,load_model,semantic+hybrid,
+load a pretrained model,68836,lm-sys/FastChat,fastchat/model/model_adapter.py,load_model,hybrid,
+load a pretrained model,68823,lm-sys/FastChat,fastchat/model/model_adapter.py,load_model,hybrid,
+load a pretrained model,68801,lm-sys/FastChat,fastchat/model/model_adapter.py,load_model,hybrid,
+learning rate schedule,170080,ultralytics/yolov5,classify/train.py,lf,keyword+semantic+hybrid,
+learning rate schedule,170049,ultralytics/yolov5,train.py,lf,keyword+hybrid,
+learning rate schedule,170093,ultralytics/yolov5,segment/train.py,lf,keyword+semantic+hybrid,
+learning rate schedule,45579,AUTOMATIC1111/stable-diffusion-webui,modules/textual_inversion/learn_schedule.py,__init__,keyword+semantic+hybrid,
+learning rate schedule,66439,zai-org/ChatGLM-6B,ptuning/trainer.py,create_optimizer_and_scheduler,keyword+semantic+hybrid,
+learning rate schedule,68644,LAION-AI/Open-Assistant,data/datasets/TSSB-3M/generate_dataset.py,clean_commit_msg,keyword,
+learning rate schedule,111174,hiyouga/LlamaFactory,src/llamafactory/train/megatron_bridge/config_builder.py,_create_optimizer_scheduler,keyword+semantic+hybrid,
+learning rate schedule,44008,AUTOMATIC1111/stable-diffusion-webui,extensions-builtin/LDSR/sd_hijack_autoencoder.py,configure_optimizers,keyword+hybrid,
+learning rate schedule,43977,AUTOMATIC1111/stable-diffusion-webui,extensions-builtin/LDSR/sd_hijack_ddpm_v1.py,configure_optimizers,keyword,
+learning rate schedule,110454,hiyouga/LlamaFactory,src/llamafactory/v1/config/training_args.py,__post_init__,keyword,
+learning rate schedule,149456,huggingface/pytorch-image-models,timm/scheduler/scheduler_factory.py,create_scheduler_v2,semantic+hybrid,
+learning rate schedule,45577,AUTOMATIC1111/stable-diffusion-webui,modules/textual_inversion/learn_schedule.py,__init__,semantic+hybrid,
+learning rate schedule,16071,lllyasviel/Fooocus,ldm_patched/k_diffusion/utils.py,get_lr,semantic,
+learning rate schedule,133304,TheAlgorithms/Python,machine_learning/multilayer_perceptron_classifier.py,update_learning_rate,semantic+hybrid,
+learning rate schedule,13847,jingyaogong/minimind,trainer/train_distillation.py,train_epoch,semantic,
+split a list into chunks,165701,zhayujie/CowAgent,agent/memory/chunker.py,_split_long_line,keyword+semantic+hybrid,
+split a list into chunks,28296,VectifyAI/PageIndex,pageindex/agent_tools.py,_split_structure,keyword,
+split a list into chunks,168276,zhayujie/CowAgent,channel/weixin/weixin_channel.py,_split_text,keyword+semantic+hybrid,
+split a list into chunks,109106,666ghj/MiroFish,backend/app/utils/file_parser.py,split_text_into_chunks,keyword+semantic+hybrid,
+split a list into chunks,81361,Graphify-Labs/graphify,graphify/llm.py,_partition_semantic_files,keyword,
+split a list into chunks,161004,zhayujie/CowAgent,tests/test_chunker_long_line_ids.py,_split_pieces,keyword+semantic+hybrid,
+split a list into chunks,127944,MemPalace/mempalace,mempalace/general_extractor.py,_slice_on_whitespace,keyword+hybrid,
+split a list into chunks,112462,oobabooga/textgen,modules/training.py,tokenize_text_data,keyword,
+split a list into chunks,165786,zhayujie/CowAgent,agent/memory/storage.py,_split_fts5_damage,keyword,
+split a list into chunks,128479,MemPalace/mempalace,mempalace/convo_miner.py,_split_bounded,keyword+hybrid,
+split a list into chunks,82659,Graphify-Labs/graphify,graphify/extractors/verilog.py,_sv_split_type_list,semantic,
+split a list into chunks,133933,TheAlgorithms/Python,ciphers/playfair_cipher.py,chunker,semantic,
+split a list into chunks,83355,virgiliojr94/book-to-skill,tools/evals/paper_flat.py,_chunks,semantic+hybrid,
+split a list into chunks,109409,666ghj/MiroFish,backend/app/services/text_processor.py,split_text,semantic+hybrid,
+split a list into chunks,175207,Yuan1z0825/nature-skills,skills/nature-citation/scripts/nature_citation.py,chunk_segments,semantic,
+split a list into chunks,82619,Graphify-Labs/graphify,graphify/extractors/dart.py,_split_types,semantic,
+split a list into chunks,165700,zhayujie/CowAgent,agent/memory/chunker.py,chunk_text,hybrid,
+split a list into chunks,146225,Alishahryar1/free-claude-code,src/free_claude_code/providers/mistral/reasoning.py,_split_mistral_content,hybrid,
+flatten a nested dictionary,114990,google-research/bert,modeling_test.py,flatten_recursive,keyword+semantic+hybrid,
+flatten a nested dictionary,173211,microsoft/qlib,qlib/model/ens/ensemble.py,__call__,keyword,
+flatten a nested dictionary,109638,666ghj/MiroFish,backend/tests/test_profile_field_normalization.py,test_list_coercion_flattens_nested_values_and_drops_missing_items,keyword,
+flatten a nested dictionary,75571,Graphify-Labs/graphify,tests/test_docx_to_markdown.py,test_a_nested_table_is_flattened_into_its_cell_once,keyword,
+flatten a nested dictionary,73920,Graphify-Labs/graphify,tests/test_languages.py,test_markdown_nested_frontmatter_survives,keyword,
+flatten a nested dictionary,10764,Imbad0202/academic-research-skills,scripts/check_phase_conformance.py,_flatten_metadata_values,keyword+semantic+hybrid,
+flatten a nested dictionary,29543,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,tools/pymss_core/config.py,to_attrdict,keyword+semantic+hybrid,
+flatten a nested dictionary,41986,ifixai-ai/iFixAi,ifixai/trace_intake/arize.py,flatten,keyword+semantic+hybrid,
+flatten a nested dictionary,154018,huggingface/pytorch-image-models,timm/data/naflex_transforms.py,forward,keyword,
+flatten a nested dictionary,29549,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,tools/pymss_core/config.py,__setitem__,keyword+hybrid,
+flatten a nested dictionary,114189,openai/gym,gym/spaces/utils.py,_flatten_dict,semantic,
+flatten a nested dictionary,62785,exo-explore/exo,src/exo/worker/runner/llm_inference/tool_parsers.py,_flatten,semantic,
+flatten a nested dictionary,171865,microsoft/qlib,qlib/utils/__init__.py,flatten_dict,semantic+hybrid,
+flatten a nested dictionary,44421,AUTOMATIC1111/stable-diffusion-webui,modules/sd_hijack.py,flatten,semantic,
+flatten a nested dictionary,90454,HKUDS/CLI-Anything,sbox/agent-harness/cli_anything/sbox/core/scene.py,_flatten_objects,semantic,
+flatten a nested dictionary,114196,openai/gym,gym/spaces/utils.py,_unflatten_dict,semantic+hybrid,
+flatten a nested dictionary,32469,usestrix/strix,strix/interface/cloud/render.py,_flatten_summary,hybrid,
+flatten a nested dictionary,113685,openai/gym,tests/wrappers/test_nested_dict.py,test_nested_dicts_ravel,hybrid,
+flatten a nested dictionary,57112,github/spec-kit,src/specify_cli/extensions/__init__.py,_merge_configs,hybrid,
+merge two dictionaries,136272,AntonOsika/gpt-engineer,gpt_engineer/applications/cli/file_selector.py,merge_file_lists,keyword+hybrid,
+merge two dictionaries,57112,github/spec-kit,src/specify_cli/extensions/__init__.py,_merge_configs,keyword+semantic+hybrid,
+merge two dictionaries,93428,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/core/mesh.py,merge_meshes,keyword,
+merge two dictionaries,48125,github/spec-kit,tests/test_merge.py,test_merge_json_files_not_a_dictionary_template,keyword,
+merge two dictionaries,85656,google/langextract,langextract/core/base_model.py,merge_kwargs,keyword+hybrid,
+merge two dictionaries,57113,github/spec-kit,src/specify_cli/extensions/__init__.py,get_config,keyword,
+merge two dictionaries,56317,github/spec-kit,src/specify_cli/_utils.py,merge_json_files,keyword+hybrid,
+merge two dictionaries,178662,psf/requests,src/requests/cookies.py,merge_cookies,keyword,
+merge two dictionaries,178708,psf/requests,src/requests/sessions.py,merge_setting,keyword,
+merge two dictionaries,25963,D4Vinci/Scrapling,scrapling/parser.py,__calculate_dict_diff,keyword,
+merge two dictionaries,173704,microsoft/qlib,qlib/rl/contrib/naive_config_parser.py,merge_a_into_b,semantic+hybrid,
+merge two dictionaries,56322,github/spec-kit,src/specify_cli/_utils.py,deep_merge_polite,semantic+hybrid,
+merge two dictionaries,55935,github/spec-kit,.github/scripts/check_file_helper_migration.py,_merge_symbols,semantic,
+merge two dictionaries,87979,HKUDS/CLI-Anything,shotcut/agent-harness/cli_anything/shotcut/core/preview.py,_merge_nested_dict,semantic,
+merge two dictionaries,30611,RVC-Project/Retrieval-based-Voice-Conversion-WebUI,train/process_ckpt.py,merge,semantic,
+merge two dictionaries,172669,microsoft/qlib,qlib/contrib/data/utils/sepdf.py,merge,semantic,
+merge two dictionaries,67937,LAION-AI/Open-Assistant,model/model_training/utils/utils.py,merge_dicts,semantic,
+merge two dictionaries,145539,Alishahryar1/free-claude-code,src/free_claude_code/providers/history_negotiation.py,merge,semantic,
+merge two dictionaries,169906,p-e-w/heretic,src/heretic/utils.py,deep_merge_dicts,semantic+hybrid,
+merge two dictionaries,86563,HKUDS/CLI-Anything,obs-studio/agent-harness/cli_anything/obs_studio/utils/obs_utils.py,deep_merge,hybrid,
+merge two dictionaries,81430,Graphify-Labs/graphify,graphify/llm.py,_merge_two,hybrid,
+merge two dictionaries,166081,zhayujie/CowAgent,agent/protocol/agent_stream.py,_merge_usage,hybrid,
+convert markdown to html,69564,datalab-to/marker,tests/converters/test_pdf_converter.py,test_html_converter,keyword+hybrid,
+convert markdown to html,43479,microsoft/markitdown,packages/markitdown/src/markitdown/converters/_html_converter.py,convert_string,keyword+semantic+hybrid,
+convert markdown to html,26034,D4Vinci/Scrapling,scrapling/core/shell.py,_convert_to_markdown,keyword+semantic+hybrid,
+convert markdown to html,43530,microsoft/markitdown,packages/markitdown/src/markitdown/converters/_pptx_converter.py,_convert_table_to_markdown,keyword+semantic+hybrid,
+convert markdown to html,108697,luongnv89/claude-howto,scripts/build_website.py,render_markdown,keyword+semantic+hybrid,
+convert markdown to html,80984,Graphify-Labs/graphify,graphify/ingest.py,_html_to_markdown,keyword+semantic+hybrid,
+convert markdown to html,43279,microsoft/markitdown,packages/markitdown/tests/test_pptx.py,test_successful_caption_keeps_native_markdown_without_hook_or_html,keyword,
+convert markdown to html,108759,luongnv89/claude-howto,scripts/build_epub.py,md_to_html,keyword+semantic+hybrid,
+convert markdown to html,43056,microsoft/markitdown,packages/markitdown/tests/test_html.py,_convert_html,keyword+semantic+hybrid,
+convert markdown to html,80986,Graphify-Labs/graphify,graphify/ingest.py,_fetch_webpage,keyword,
+convert markdown to html,112103,oobabooga/textgen,modules/html_generator.py,generate_basic_html,semantic+hybrid,
+convert markdown to html,118364,sansan0/TrendRadar,mcp_server/tools/notification.py,_markdown_to_simple_html,semantic,
+convert markdown to html,68601,LAION-AI/Open-Assistant,data/datasets/oa_stackexchange/process.py,to_markdown,semantic,
+convert markdown to html,112101,oobabooga/textgen,modules/html_generator.py,convert_to_markdown,hybrid,
+extract text from a pdf,112181,oobabooga/textgen,modules/chat.py,extract_pdf_text,keyword+semantic+hybrid,
+extract text from a pdf,28064,VectifyAI/PageIndex,pageindex/utils.py,extract_text_from_pdf,keyword+semantic+hybrid,
+extract text from a pdf,79910,Graphify-Labs/graphify,tests/test_pdf_extra_warning.py,test_extract_pdf_text_unreadable_pdf_warns,keyword,
+extract text from a pdf,79913,Graphify-Labs/graphify,tests/test_pdf_extra_warning.py,test_extract_pdf_text_empty_but_valid_pdf_does_not_warn,keyword,
+extract text from a pdf,79908,Graphify-Labs/graphify,tests/test_pdf_extra_warning.py,test_extract_pdf_text_missing_pypdf_warns,keyword,
+extract text from a pdf,11388,Imbad0202/academic-research-skills,scripts/_calibration_pdf_text.py,pdf_facts,keyword,
+extract text from a pdf,79909,Graphify-Labs/graphify,tests/test_pdf_extra_warning.py,test_extract_pdf_text_missing_pypdf_warns_once_across_many_pdfs,keyword,
+extract text from a pdf,79911,Graphify-Labs/graphify,tests/test_pdf_extra_warning.py,test_extract_pdf_text_encrypted_pdf_warns,keyword,
+extract text from a pdf,80968,Graphify-Labs/graphify,graphify/file_slice.py,_pdf_text,keyword,
+extract text from a pdf,79912,Graphify-Labs/graphify,tests/test_pdf_extra_warning.py,test_extract_pdf_text_unreadable_pdf_warns_once_per_file,keyword,
+extract text from a pdf,83475,virgiliojr94/book-to-skill,book_to_skill/parsers/pdf.py,extract_with_pdftotext,semantic,
+extract text from a pdf,42993,microsoft/markitdown,packages/markitdown/tests/test_pdf.py,extract_text,semantic,
+extract text from a pdf,154793,ai-job-search-dev/ai-job-search,tools/verify_pdf.py,extract_text_layer,semantic+hybrid,
+extract text from a pdf,11386,Imbad0202/academic-research-skills,scripts/_calibration_pdf_text.py,extract_manuscript_text,semantic,
+extract text from a pdf,83482,virgiliojr94/book-to-skill,book_to_skill/parsers/pdf.py,extract_with_pdfminer,semantic,
+extract text from a pdf,154791,ai-job-search-dev/ai-job-search,tools/verify_pdf.py,_extract_pypdf,semantic+hybrid,
+extract text from a pdf,69783,datalab-to/marker,marker/providers/pdf.py,pdftext_extraction,semantic,
+extract text from a pdf,26511,VectifyAI/PageIndex,tests/conftest.py,sample_pdf,semantic+hybrid,
+extract text from a pdf,164984,zhayujie/CowAgent,agent/tools/web_fetch/web_fetch.py,_parse_pdf,hybrid,
+extract text from a pdf,109109,666ghj/MiroFish,backend/app/utils/file_parser.py,_extract_from_pdf,hybrid,
+extract text from a pdf,83800,virgiliojr94/book-to-skill,tests/test_pdf_outline_chapters.py,_text_pdf,hybrid,
+extract text from a pdf,81398,Graphify-Labs/graphify,graphify/llm.py,_pdf_text_for_estimate,hybrid,
+extract text from a pdf,121799,MemPalace/mempalace,tests/test_format_miner.py,test_happy_path_pdf,hybrid,
+parse html,175140,Yuan1z0825/nature-skills,skills/nature-paper-to-patent/scripts/disclosure/cnipa_epub_crawler.py,fetch_epub_result_html,keyword+hybrid,
+parse html,25479,D4Vinci/Scrapling,tests/parser/test_general.py,test_large_html_parsing_performance,keyword+hybrid,
+parse html,65109,NanmiCoder/MediaCrawler,tests/test_xhs_raw_response_errors.py,test_html_detail_still_retries_parse_failures,keyword,
+parse html,43545,microsoft/markitdown,packages/markitdown/src/markitdown/converter_utils/_image.py,_parse_image_html,keyword+hybrid,
+parse html,43011,microsoft/markitdown,packages/markitdown/tests/test_rss.py,test_atom_untyped_summary_is_not_parsed_as_html,keyword,
+parse html,80515,Graphify-Labs/graphify,tests/test_export.py,_parse_html_fragment,keyword+hybrid,
+parse html,43013,microsoft/markitdown,packages/markitdown/tests/test_rss.py,test_atom_text_media_type_content_is_not_parsed_as_html,keyword,
+parse html,43010,microsoft/markitdown,packages/markitdown/tests/test_rss.py,test_atom_plain_text_content_is_not_parsed_as_html,keyword,
+parse html,70038,datalab-to/marker,marker/processors/llm/llm_table_merge.py,join_html_tables,keyword,
+parse html,7630,Imbad0202/academic-research-skills,scripts/test_check_phase_conformance.py,test_a_quoted_attribute_raw_html_field_now_aborts,keyword,
+parse html,115509,nextlevelbuilder/ui-ux-pro-max-skill,.claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_preview.py,_parse,semantic+hybrid,
+parse html,70077,datalab-to/marker,marker/scripts/viewer.py,_extract_body_html,semantic,
+parse html,25419,D4Vinci/Scrapling,tests/cli/test_shell_functionality.py,sample_html,semantic,
+parse html,164996,zhayujie/CowAgent,agent/tools/web_fetch/web_fetch.py,_extract_text,semantic,
+parse html,43492,microsoft/markitdown,packages/markitdown/src/markitdown/converters/_rss_converter.py,_parse_content,semantic+hybrid,
+parse html,18219,9001/copyparty,bin/partyfuse2.py,html_dec,semantic,
+parse html,37116,abi/screenshot-to-code,backend/codegen/test_utils.py,test_extract_html_content_with_html_tags,semantic,
+parse html,36826,abi/screenshot-to-code,backend/tests/test_codegen_utils.py,test_extract_html_content_from_wrapped_file_tag,semantic,
+parse html,64911,NanmiCoder/MediaCrawler,tools/crawler_util.py,extract_text_from_html,semantic,
+parse html,18071,9001/copyparty,bin/partyfuse-streaming.py,html_dec,semantic,
+parse html,69685,datalab-to/marker,marker/renderers/__init__.py,extract_block_html,hybrid,
+parse html,18087,9001/copyparty,bin/partyfuse-streaming.py,parse_html,hybrid,
+parse html,36371,soimort/you-get,src/you_get/extractors/tudou.py,parse_playlist,hybrid,
+parse html,36372,soimort/you-get,src/you_get/extractors/tudou.py,parse_plist,hybrid,
+handle websocket messages,158254,zhayujie/CowAgent,tests/test_wecom_bot_group_text.py,_receive,keyword+hybrid,
+handle websocket messages,167460,zhayujie/CowAgent,channel/feishu/feishu_channel.py,handle_message_recalled_event,keyword,
+handle websocket messages,167459,zhayujie/CowAgent,channel/feishu/feishu_channel.py,handle_message_event,keyword,
+handle websocket messages,167439,zhayujie/CowAgent,channel/feishu/feishu_channel.py,_startup_websocket,keyword+hybrid,
+handle websocket messages,68474,LAION-AI/Open-Assistant,inference/server/oasst_inference_server/routes/workers.py,handle_worker,keyword,
+handle websocket messages,37196,abi/screenshot-to-code,backend/routes/generate_code.py,stream_code,keyword,
+handle websocket messages,36675,abi/screenshot-to-code,backend/tests/test_websocket_communicator.py,test_send_message_ignores_already_completed_websocket,keyword+hybrid,
+handle websocket messages,163522,zhayujie/CowAgent,tests/test_feishu_lark_domain.py,test_websocket_domain_mismatch_is_matched_by_code_not_message,keyword,
+handle websocket messages,168402,zhayujie/CowAgent,channel/qq/qq_channel.py,_run_session,keyword+semantic+hybrid,
+handle websocket messages,159315,zhayujie/CowAgent,tests/test_wecom_bot_stream_state.py,_context,keyword,
+handle websocket messages,37206,abi/screenshot-to-code,backend/routes/generate_code.py,throw_error,semantic+hybrid,
+handle websocket messages,64951,NanmiCoder/MediaCrawler,tools/cdp_browser.py,_get_browser_websocket_url,semantic+hybrid,
+handle websocket messages,37208,abi/screenshot-to-code,backend/routes/generate_code.py,close,semantic+hybrid,
+handle websocket messages,37204,abi/screenshot-to-code,backend/routes/generate_code.py,accept,semantic+hybrid,
+handle websocket messages,168182,zhayujie/CowAgent,channel/wecom_bot/wecom_bot_channel.py,_on_open,semantic,
+handle websocket messages,168430,zhayujie/CowAgent,channel/qq/qq_channel.py,_on_close,semantic,
+handle websocket messages,68535,LAION-AI/Open-Assistant,inference/worker/utils.py,send_response,semantic,
+handle websocket messages,37219,abi/screenshot-to-code,backend/routes/generate_code.py,process,semantic,
+handle websocket messages,167389,zhayujie/CowAgent,channel/dingtalk/dingtalk_channel.py,_session,semantic+hybrid,
+handle websocket messages,65912,NanmiCoder/MediaCrawler,api/routers/websocket.py,websocket_logs,hybrid,
+start an async http server,108114,scrapy/scrapy,scrapy/extensions/remote_control.py,start,keyword+semantic+hybrid,
+start an async http server,141138,Alishahryar1/free-claude-code,tests/runtime/test_application_runtime.py,test_folder_picker_is_stopped_before_http_shutdown_drains,keyword+hybrid,
+start an async http server,62245,exo-explore/exo,src/exo/api/tests/test_serving_http.py,http_server,keyword+hybrid,
+start an async http server,25606,D4Vinci/Scrapling,tests/ai/test_browser_observe.py,_server,keyword,
+start an async http server,142896,Alishahryar1/free-claude-code,tests/api/test_app_lifespan_and_errors.py,test_runtime_startup_logs_admin_url_without_printed_server_banner,keyword,
+start an async http server,146558,Alishahryar1/free-claude-code,src/free_claude_code/runtime/application.py,http_started,keyword,
+start an async http server,38347,ifixai-ai/iFixAi,ifixai/tests/test_one_judge_pass.py,judge,keyword,
+start an async http server,119698,MemPalace/mempalace,tests/conftest.py,_no_reverse_dns_on_http_server_bind,keyword,
+start an async http server,113105,httpie/cli,tests/utils/http_server.py,_http_server,keyword+hybrid,
+start an async http server,108116,scrapy/scrapy,scrapy/extensions/remote_control.py,stop,keyword+hybrid,
+start an async http server,104063,scrapy/scrapy,tests/test_downloader_handler_aioftp.py,_serve,semantic+hybrid,
+start an async http server,39812,ifixai-ai/iFixAi,ifixai/tests/evaluation/test_judge_side_unscored.py,_serve,semantic+hybrid,
+start an async http server,105802,scrapy/scrapy,tests/test_downloader.py,start,semantic,
+start an async http server,156803,browser-use/browser-use,tests/ci/test_captcha.py,main,semantic,
+start an async http server,62674,exo-explore/exo,src/exo/worker/serving.py,run,semantic,
+start an async http server,62850,exo-explore/exo,src/exo/worker/tests/serving_cluster.py,through,semantic,
+start an async http server,38552,ifixai-ai/iFixAi,ifixai/tests/test_langchain_invalid_content.py,endpoint,semantic,
+start an async http server,38785,ifixai-ai/iFixAi,ifixai/tests/test_langchain_content_blocks_native.py,invoke_endpoint,semantic,
+start an async http server,141384,Alishahryar1/free-claude-code,tests/runtime/test_catalog_independence.py,test_http_catalog_exposes_ready_models_while_another_provider_waits,semantic,
+start an async http server,35203,usestrix/strix,tests/test_tui_backend_server.py,start_server,hybrid,
+start an async http server,111880,oobabooga/textgen,extensions/superboogav2/api.py,start_server,hybrid,
+start an async http server,61951,exo-explore/exo,src/exo/download/tests/fake_hub.py,start,hybrid,
+authenticate with an api key,11322,Imbad0202/academic-research-skills,scripts/test_openalex_client.py,test_api_key_selects_authenticated_interval,keyword+hybrid,
+authenticate with an api key,10181,Imbad0202/academic-research-skills,scripts/test_semantic_scholar_client.py,test_api_key_lowers_interval_to_authenticated_tier,keyword+hybrid,
+authenticate with an api key,158507,zhayujie/CowAgent,tests/test_web_search.py,test_search_keenable_keyed_uses_authenticated_endpoint,keyword+hybrid,
+authenticate with an api key,176413,Yuan1z0825/nature-skills,skills/nature-academic-search/scripts/academic_search.py,_get_json,keyword+hybrid,
+authenticate with an api key,91054,HKUDS/CLI-Anything,exa/agent-harness/cli_anything/exa/utils/exa_backend.py,get_client,keyword,
+authenticate with an api key,146940,Alishahryar1/free-claude-code,src/free_claude_code/api/dependencies.py,require_anthropic_proxy_auth,keyword,
+authenticate with an api key,137722,Alishahryar1/free-claude-code,tests/config/test_fallback_key_settings.py,test_other_authentication_has_only_the_default_selection,keyword,
+authenticate with an api key,98071,HKUDS/CLI-Anything,obsidian/agent-harness/cli_anything/obsidian/core/server.py,server_status,keyword,
+authenticate with an api key,21852,anthropics/claude-plugins-official,plugins/security-guidance/tests/test_review_model.py,test_lookup_authenticates_like_the_review_call,keyword,
+authenticate with an api key,39390,ifixai-ai/iFixAi,ifixai/tests/providers/test_cloudflare_provider.py,test_the_token_is_sent_both_ways_cloudflare_documents,keyword,
+authenticate with an api key,111316,hiyouga/LlamaFactory,src/llamafactory/api/app.py,verify_api_key,semantic+hybrid,
+authenticate with an api key,69162,lm-sys/FastChat,fastchat/serve/openai_api_server.py,check_api_key,semantic+hybrid,
+authenticate with an api key,112599,oobabooga/textgen,modules/api/script.py,verify_api_key,semantic+hybrid,
+authenticate with an api key,112601,oobabooga/textgen,modules/api/script.py,verify_anthropic_key,semantic+hybrid,
+authenticate with an api key,68337,LAION-AI/Open-Assistant,inference/server/oasst_inference_server/worker_utils.py,get_api_key,semantic,
+authenticate with an api key,112600,oobabooga/textgen,modules/api/script.py,verify_admin_key,semantic,
+authenticate with an api key,67588,LAION-AI/Open-Assistant,backend/oasst_backend/api/deps.py,get_api_key,semantic,
+authenticate with an api key,67595,LAION-AI/Open-Assistant,backend/oasst_backend/api/deps.py,user_identifier,semantic,
+authenticate with an api key,67591,LAION-AI/Open-Assistant,backend/oasst_backend/api/deps.py,api_auth,semantic,
+authenticate with an api key,92211,HKUDS/CLI-Anything,minimax/agent-harness/cli_anything/minimax/utils/minimax_backend.py,_make_auth_headers,semantic,
+authenticate with an api key,6845,Imbad0202/academic-research-skills,scripts/dispatch_e4_panel.py,_api_key_helper,hybrid,
+authenticate with an api key,167907,zhayujie/CowAgent,channel/web/api/openai_compat.py,_authenticate,hybrid,
+refresh an oauth token,165362,zhayujie/CowAgent,agent/tools/mcp/mcp_client.py,_handle_401,keyword+hybrid,
+refresh an oauth token,165359,zhayujie/CowAgent,agent/tools/mcp/mcp_client.py,_current_bearer,keyword+semantic+hybrid,
+refresh an oauth token,97408,HKUDS/CLI-Anything,zoom/agent-harness/cli_anything/zoom/utils/zoom_backend.py,refresh_access_token,keyword+semantic+hybrid,
+refresh an oauth token,165325,zhayujie/CowAgent,agent/tools/mcp/mcp_oauth.py,_absorb_token_response,keyword+semantic+hybrid,
+refresh an oauth token,125280,MemPalace/mempalace,tests/test_query_parser.py,test_search_shorthand,keyword,
+refresh an oauth token,165320,zhayujie/CowAgent,agent/tools/mcp/mcp_oauth.py,refresh,keyword+semantic+hybrid,
+refresh an oauth token,97407,HKUDS/CLI-Anything,zoom/agent-harness/cli_anything/zoom/utils/zoom_backend.py,exchange_code,keyword+hybrid,
+refresh an oauth token,34393,usestrix/strix,tests/test_codex_auth.py,test_get_valid_token_refreshes_and_persists_rotation,keyword+hybrid,
+refresh an oauth token,34394,usestrix/strix,tests/test_codex_auth.py,test_get_valid_token_uses_token_rotated_by_another_process,keyword+hybrid,
+refresh an oauth token,97409,HKUDS/CLI-Anything,zoom/agent-harness/cli_anything/zoom/utils/zoom_backend.py,_get_valid_token,keyword+semantic+hybrid,
+refresh an oauth token,68433,LAION-AI/Open-Assistant,inference/server/oasst_inference_server/routes/auth.py,refresh_token,semantic+hybrid,
+refresh an oauth token,140560,Alishahryar1/free-claude-code,tests/providers/test_vertex.py,refresh,semantic,
+refresh an oauth token,68351,LAION-AI/Open-Assistant,inference/server/oasst_inference_server/auth.py,refresh_access_token,semantic,
+refresh an oauth token,33190,usestrix/strix,strix/config/codex.py,refresh_tokens,semantic,
+refresh an oauth token,33193,usestrix/strix,strix/config/codex.py,get_valid_token,semantic,
+encode an image as base64,112026,oobabooga/textgen,modules/image_utils.py,convert_pil_to_base64,keyword+hybrid,
+encode an image as base64,69393,lm-sys/FastChat,fastchat/serve/vision/image.py,convert_image_to_base64,keyword+hybrid,
+encode an image as base64,136185,AntonOsika/gpt-engineer,gpt_engineer/core/token_usage.py,num_tokens_for_base64_image,keyword,
+encode an image as base64,42451,FoundationAgents/OpenManus,app/schema.py,from_tool_calls,keyword,
+encode an image as base64,45591,AUTOMATIC1111/stable-diffusion-webui,modules/api/api.py,decode_base64_to_image,keyword+hybrid,
+encode an image as base64,70117,datalab-to/marker,marker/services/openai.py,process_images,keyword,
+encode an image as base64,42701,FoundationAgents/OpenManus,app/tool/sandbox/sb_browser_tool.py,_validate_base64_image,keyword,
+encode an image as base64,45592,AUTOMATIC1111/stable-diffusion-webui,modules/api/api.py,encode_pil_to_base64,keyword+hybrid,
+encode an image as base64,37093,abi/screenshot-to-code,backend/agent/providers/openai.py,_image_ref,keyword,
+encode an image as base64,70076,datalab-to/marker,marker/scripts/viewer.py,_inline_images_in_html,keyword,
+encode an image as base64,112582,oobabooga/textgen,modules/api/images.py,_image_to_base64,semantic+hybrid,
+encode an image as base64,176606,Yuan1z0825/nature-skills,skills/nature-figure/scripts/generate_openrouter_schematic.py,decode_b64_image,semantic,
+encode an image as base64,68693,lm-sys/FastChat,tests/test_openai_vision_api.py,encode_image,semantic+hybrid,
+encode an image as base64,115587,nextlevelbuilder/ui-ux-pro-max-skill,.claude/skills/design/scripts/cip/render-html.py,get_image_base64,semantic+hybrid,
+encode an image as base64,175681,Yuan1z0825/nature-skills,skills/nature-image2ppt/cli/image2ppt/runtime/image_gen.py,_image_to_data_url,semantic+hybrid,
+encode an image as base64,43774,AUTOMATIC1111/stable-diffusion-webui,test/conftest.py,file_to_base64,semantic,
+encode an image as base64,63574,exo-explore/exo,src/exo/worker/engines/mlx/vision.py,decode_base64_image,semantic,
+encode an image as base64,37273,abi/screenshot-to-code,backend/routes/screenshot.py,bytes_to_data_url,semantic,
+encode an image as base64,36583,abi/screenshot-to-code,backend/evals/asset_extraction_benchmark.py,_to_data_url,semantic,
+encode an image as base64,70107,datalab-to/marker,marker/services/__init__.py,img_to_base64,semantic,
+encode an image as base64,36608,abi/screenshot-to-code,backend/evals/utils.py,image_to_data_url,hybrid,
+encode an image as base64,36680,abi/screenshot-to-code,backend/tests/test_anthropic_many_image_limit.py,_data_url,hybrid,
+stream a response from an llm,160603,zhayujie/CowAgent,tests/test_trajectory_eval.py,_call_llm_stream,keyword+hybrid,
+stream a response from an llm,163376,zhayujie/CowAgent,tests/test_incremental_persist.py,_call_llm_stream,keyword+hybrid,
+stream a response from an llm,163453,zhayujie/CowAgent,tests/test_agent_steering.py,_call_llm_stream,keyword+hybrid,
+stream a response from an llm,26610,VectifyAI/PageIndex,tests/test_local_chat.py,test_a_stream_error_retries_by_its_status,keyword+hybrid,
+stream a response from an llm,77106,Graphify-Labs/graphify,tests/test_llm_backends.py,test_openai_compat_forces_non_streaming_response,keyword,
+stream a response from an llm,43415,microsoft/markitdown,packages/markitdown/src/markitdown/converters/_llm_caption.py,llm_caption,keyword,
+stream a response from an llm,43414,microsoft/markitdown,packages/markitdown/src/markitdown/converters/_image_converter.py,_get_llm_description,keyword,
+stream a response from an llm,34331,usestrix/strix,tests/test_cost_tracking.py,test_cost_callback_recovers_streamed_openrouter_cost_by_response_id,keyword,
+stream a response from an llm,163017,zhayujie/CowAgent,tests/test_parallel_tool_calls.py,_call_llm_stream,keyword,
+stream a response from an llm,42431,FoundationAgents/OpenManus,app/llm.py,ask,keyword+semantic+hybrid,
+stream a response from an llm,166063,zhayujie/CowAgent,agent/protocol/models.py,call_stream,semantic+hybrid,
+stream a response from an llm,160628,zhayujie/CowAgent,tests/test_agent_empty_reply_prompt_leak.py,_call_llm_stream,semantic+hybrid,
+stream a response from an llm,138240,Alishahryar1/free-claude-code,tests/providers/test_model_discovery.py,stream_responses,semantic+hybrid,
+stream a response from an llm,146995,Alishahryar1/free-claude-code,src/free_claude_code/application/ports.py,stream_responses,semantic,
+stream a response from an llm,142311,Alishahryar1/free-claude-code,tests/api/test_web_server_tools.py,_stream_cm,semantic,
+stream a response from an llm,141144,Alishahryar1/free-claude-code,tests/runtime/test_application_runtime.py,stream_responses,semantic,
+stream a response from an llm,146994,Alishahryar1/free-claude-code,src/free_claude_code/application/ports.py,stream_messages,semantic,
+stream a response from an llm,144348,Alishahryar1/free-claude-code,e2e/conftest.py,stream_responses,semantic,
+stream a response from an llm,145866,Alishahryar1/free-claude-code,src/free_claude_code/providers/attempt_loop/attempt.py,stream,semantic,
+stream a response from an llm,33175,usestrix/strix,strix/config/models.py,transform_response,hybrid,
+stream a response from an llm,26531,VectifyAI/PageIndex,tests/test_local_chat.py,_mock_litellm,hybrid,
+count tokens in a prompt,44118,AUTOMATIC1111/stable-diffusion-webui,modules/sd_models_xl.py,get_target_prompt_token_count,keyword+hybrid,
+count tokens in a prompt,44637,AUTOMATIC1111/stable-diffusion-webui,modules/sd_hijack_clip.py,get_target_prompt_token_count,keyword+semantic+hybrid,
+count tokens in a prompt,142012,Alishahryar1/free-claude-code,tests/api/test_request_utils.py,test_message_with_system_prompt,keyword+semantic+hybrid,
+count tokens in a prompt,63614,exo-explore/exo,src/exo/worker/engines/mlx/utils_mlx.py,system_prompt_token_count,keyword+semantic+hybrid,
+count tokens in a prompt,44416,AUTOMATIC1111/stable-diffusion-webui,modules/sd_hijack.py,get_prompt_lengths,keyword+hybrid,
+count tokens in a prompt,5141,Imbad0202/academic-research-skills,scripts/dispatch_panel_claim_audit.py,gemini_usage,keyword,
+count tokens in a prompt,69031,lm-sys/FastChat,fastchat/serve/base_model_worker.py,count_token,keyword+semantic+hybrid,
+count tokens in a prompt,112548,oobabooga/textgen,modules/api/tokens.py,token_count,keyword+semantic+hybrid,
+count tokens in a prompt,112176,oobabooga/textgen,modules/chat.py,count_prompt_tokens,keyword,
+count tokens in a prompt,81335,Graphify-Labs/graphify,graphify/llm.py,_estimate_prompt_tokens,keyword,
+count tokens in a prompt,74765,Graphify-Labs/graphify,tests/test_pdf_token_estimate.py,_actual_tokens,semantic,
+count tokens in a prompt,44641,AUTOMATIC1111/stable-diffusion-webui,modules/sd_hijack_clip.py,tokenize_line,semantic+hybrid,
+count tokens in a prompt,33456,usestrix/strix,strix/report/usage.py,_resolve_total_tokens,semantic,
+count tokens in a prompt,20903,openai/whisper,whisper/decoding.py,_get_initial_tokens,semantic,
+count tokens in a prompt,69199,lm-sys/FastChat,fastchat/serve/huggingface_api_worker.py,count_token,semantic,
+count tokens in a prompt,44349,AUTOMATIC1111/stable-diffusion-webui,modules/script_callbacks.py,on_before_token_counter,hybrid,
+count tokens in a prompt,28021,VectifyAI/PageIndex,pageindex/utils.py,_add_usage,hybrid,
+truncate text to a max length,95275,HKUDS/CLI-Anything,browser/agent-harness/cli_anything/browser/utils/security.py,sanitize_dom_text,keyword+hybrid,
+truncate text to a max length,127824,MemPalace/mempalace,mempalace/embeddinggemma2.py,_cap_max_seq_length,keyword,
+truncate text to a max length,154412,hesreallyhim/awesome-claude-code,tests/test_generate_ticker_svg.py,test_truncate_repo_name_custom_length,keyword+hybrid,
+truncate text to a max length,154477,hesreallyhim/awesome-claude-code,ticker/generate_ticker_svg.py,truncate_repo_name,keyword+hybrid,
+truncate text to a max length,68546,LAION-AI/Open-Assistant,inference/worker/chat_chain_utils.py,truncate_str,keyword+semantic+hybrid,
+truncate text to a max length,165227,zhayujie/CowAgent,agent/tools/utils/truncate.py,truncate_line,keyword+semantic+hybrid,
+truncate text to a max length,68411,LAION-AI/Open-Assistant,inference/server/oasst_inference_server/plugins/web_retriever/main.py,truncate_paragraphs,keyword+hybrid,
+truncate text to a max length,126376,MemPalace/mempalace,tests/test_embeddinggemma.py,enable_truncation,keyword+hybrid,
+truncate text to a max length,95107,HKUDS/CLI-Anything,browser/agent-harness/cli_anything/browser/tests/test_security.py,test_long_text_truncated,keyword+hybrid,
+truncate text to a max length,68531,LAION-AI/Open-Assistant,inference/worker/utils.py,truncate_prompt,keyword,
+truncate text to a max length,165834,zhayujie/CowAgent,agent/memory/storage.py,_truncate_text,semantic+hybrid,
+truncate text to a max length,154467,hesreallyhim/awesome-claude-code,ticker/generate_recently_added_svg.py,_truncate,semantic,
+truncate text to a max length,60219,exo-explore/exo,bench/vendor/lcb_testing_util.py,truncatefn,semantic,
+truncate text to a max length,81537,Graphify-Labs/graphify,graphify/callflow_html.py,truncate_text,semantic,
+truncate text to a max length,92632,HKUDS/CLI-Anything,inkscape/agent-harness/cli_anything/inkscape/core/text.py,_truncate_with_ellipsis,semantic,
+truncate text to a max length,130237,asgeirtj/system_prompts_leaks,Meta/muse-code/skills/doctor/scripts/session-evidence.py,_truncate,semantic,
+truncate text to a max length,37155,abi/screenshot-to-code,backend/fs_logging/openai_input_formatting.py,truncate_for_log,semantic,
+truncate text to a max length,178247,bilibili/GPT-SoVITS,GPT_SoVITS/text/g2pw/dataset.py,_truncate,semantic,
+truncate text to a max length,42644,FoundationAgents/OpenManus,app/tool/str_replace_editor.py,maybe_truncate,hybrid,
+remove duplicates from a list,131860,TheAlgorithms/Python,data_structures/linked_list/sorted_linked_list.py,remove_duplicates,keyword+semantic+hybrid,
+remove duplicates from a list,129356,MemPalace/mempalace,mempalace/i18n/__init__.py,_dedupe,keyword+semantic+hybrid,
+remove duplicates from a list,8005,Imbad0202/academic-research-skills,scripts/audit_snapshot.py,dedupe_preserving_order,keyword+semantic+hybrid,
+remove duplicates from a list,46207,github/spec-kit,tests/test_workflows.py,test_remove_catalog_uses_listed_position,keyword+hybrid,
+remove duplicates from a list,61438,exo-explore/exo,src/exo/master/tests/test_deployment_edge_cases.py,test_a_second_instance_of_one_deployment_is_removed,keyword,
+remove duplicates from a list,121928,MemPalace/mempalace,tests/test_hallways.py,test_prune_preserves_ambiguous_halls_and_removes_only_unique_duplicate,keyword,
+remove duplicates from a list,132235,TheAlgorithms/Python,strings/remove_duplicate.py,remove_duplicates,keyword+hybrid,
+remove duplicates from a list,31394,nvbn/thefuck,tests/test_corrector.py,test_organize_commands,keyword,
+remove duplicates from a list,133956,TheAlgorithms/Python,ciphers/simple_keyword_cypher.py,remove_duplicates,keyword+hybrid,
+remove duplicates from a list,96866,HKUDS/CLI-Anything,3MF/agent-harness/cli_anything/threemf/tests/test_core.py,test_merge_duplicate_vertices_removes_one,keyword,
+remove duplicates from a list,178236,bilibili/GPT-SoVITS,GPT_SoVITS/text/g2pw/g2pw.py,_remove_dup_and_empty,semantic+hybrid,
+remove duplicates from a list,106974,scrapy/scrapy,scrapy/linkextractors/lxmlhtml.py,_deduplicate_if_needed,semantic,
+remove duplicates from a list,101733,HKUDS/CLI-Anything,nsight-graphics/agent-harness/cli_anything/nsight_graphics/utils/backend/shared.py,_dedupe,semantic,
+remove duplicates from a list,178235,bilibili/GPT-SoVITS,GPT_SoVITS/text/g2pw/g2pw.py,_remove_dup_items,semantic,
+remove duplicates from a list,107929,scrapy/scrapy,scrapy/utils/python.py,unique,semantic,
+remove duplicates from a list,10346,Imbad0202/academic-research-skills,scripts/check_evals_gold_set.py,_no_duplicates,semantic,
+remove duplicates from a list,146342,Alishahryar1/free-claude-code,src/free_claude_code/harnesses/environment.py,_append_unique,semantic,
+remove duplicates from a list,120497,MemPalace/mempalace,tests/test_tunnels_tool_aliases.py,test_prune_preserves_distinct_hosts_and_removes_exact_reversed_duplicate,hybrid,
+remove duplicates from a list,131314,public-apis/public-apis,scripts/validate/links.py,check_duplicate_links,hybrid,
+remove duplicates from a list,56258,github/spec-kit,src/specify_cli/integration_state.py,dedupe_integration_keys,hybrid,
+generate a random string,132801,TheAlgorithms/Python,computer_vision/mosaic_augmentation.py,random_chars,keyword+semantic+hybrid,
+generate a random string,132797,TheAlgorithms/Python,computer_vision/flip_augmentation.py,random_chars,keyword+semantic+hybrid,
+generate a random string,104588,scrapy/scrapy,tests/test_pipeline_images.py,_generate_fake_settings,keyword,
+generate a random string,17593,lllyasviel/Fooocus,modules/util.py,generate_temp_filename,keyword,
+generate a random string,104986,scrapy/scrapy,tests/test_pipeline_files.py,_generate_fake_settings,keyword+hybrid,
+generate a random string,102827,scrapy/scrapy,tests/test_http2_client_protocol.py,test_query_parameters,keyword,
+generate a random string,129814,MemPalace/mempalace,benchmarks/mine_bench.py,build_corpus,keyword,
+generate a random string,114207,openai/gym,gym/spaces/text.py,sample,keyword+hybrid,
+generate a random string,24373,D4Vinci/Scrapling,tests/fetchers/test_impersonate_list.py,test_select_random_browser_with_single_string,keyword,
+generate a random string,171682,sherlock-project/sherlock,tests/test_probes.py,test_likely_negatives_via_message,keyword,
+generate a random string,135700,swisskyrepo/PayloadsAllTheThings,Server Side Request Forgery/Files/ip.py,RANDOM_TEXT_SPEC,semantic+hybrid,
+generate a random string,135701,swisskyrepo/PayloadsAllTheThings,Server Side Request Forgery/Files/ip.py,RANDOM_TEXT,semantic+hybrid,
+generate a random string,85868,google/langextract,benchmarks/fuzzy_benchmark.py,_generate_source_text,semantic,
+generate a random string,94138,HKUDS/CLI-Anything,zotero/agent-harness/cli_anything/zotero/utils/zotero_sqlite.py,generate_object_key,semantic,
+generate a random string,84956,google/langextract,tests/fuzzy_alignment_cases_test.py,_generate_source,semantic,
+generate a random string,147669,ComposioHQ/awesome-claude-skills,document-skills/docx/scripts/document.py,_generate_rsid,semantic+hybrid,
+generate a random string,134052,TheAlgorithms/Python,ciphers/simple_substitution_cipher.py,get_random_key,semantic+hybrid,
+generate a random string,133561,TheAlgorithms/Python,other/password.py,alternative_password_generator,semantic,
+generate a random string,43818,AUTOMATIC1111/stable-diffusion-webui,extensions-builtin/Lora/ui_edit_user_metadata.py,generate_random_prompt_from_tags,hybrid,
+generate a random string,170008,satwikkansal/wtfpython,irrelevant/insert_ids.py,generate_random_id_comment,hybrid,
+measure execution time,127011,MemPalace/mempalace,tests/benchmarks/test_performance_budgets.py,_measure_cold_import_ms,keyword+hybrid,
+measure execution time,67700,LAION-AI/Open-Assistant,oasst-shared/oasst_shared/utils.py,start,keyword+semantic+hybrid,
+measure execution time,134650,TheAlgorithms/Python,greedy_methods/minimum_waiting_time.py,minimum_waiting_time,keyword+hybrid,
+measure execution time,23451,anthropics/claude-plugins-official,plugins/code-modernization/scripts/baseline_diff.py,assess_baseline,keyword,
+measure execution time,41909,ifixai-ai/iFixAi,ifixai/harness/base.py,_scored_count,keyword,
+measure execution time,5641,Imbad0202/academic-research-skills,scripts/check_tortured_phrase_screening_integration.py,_expected_execution_manifest,keyword,
+measure execution time,8124,Imbad0202/academic-research-skills,scripts/test_check_684_review_criteria_binding.py,test_measurement_runner_rejects_network_import_and_consent_flag_removal,keyword,
+measure execution time,142001,Alishahryar1/free-claude-code,tests/scripts/test_ci_shard_partition.py,test_recorded_timings_partition_once_and_only_store_fresh_measurements,keyword,
+measure execution time,171706,sherlock-project/sherlock,sherlock_project/sherlock.py,request,keyword,
+measure execution time,8109,Imbad0202/academic-research-skills,scripts/test_arxiv_client.py,test_throttle_uses_monotonic_clock,keyword,
+measure execution time,134106,TheAlgorithms/Python,ciphers/atbash.py,benchmark,semantic+hybrid,
+measure execution time,132401,TheAlgorithms/Python,bit_manipulation/count_number_of_one_bits.py,do_benchmark,semantic+hybrid,
+measure execution time,24230,D4Vinci/Scrapling,benchmarks.py,benchmark,semantic+hybrid,
+measure execution time,133257,TheAlgorithms/Python,machine_learning/sequential_minimum_optimization.py,count_time,semantic,
+measure execution time,133695,TheAlgorithms/Python,dynamic_programming/matrix_chain_multiplication.py,elapsed_time,semantic,
+measure execution time,161443,zhayujie/CowAgent,tests/test_scheduler_long_run_overlap.py,execute,semantic,
+measure execution time,134780,TheAlgorithms/Python,graphs/breadth_first_search_2.py,benchmark_function,semantic,
+measure execution time,171759,microsoft/qlib,qlib/log.py,logt,semantic,
+measure execution time,22040,anthropics/claude-plugins-official,plugins/security-guidance/tests/test_launcher_probe_timing.py,test_whole_second_clock_measures_slow_probes,semantic,
+measure execution time,24236,D4Vinci/Scrapling,benchmarks.py,wrapper,hybrid,
+measure execution time,75252,Graphify-Labs/graphify,tests/test_ts_import_type_arguments.py,timed,hybrid,
+measure execution time,39658,ifixai-ai/iFixAi,ifixai/tests/trajectory/benchmark_trajectory.py,measure,hybrid,
+measure execution time,129822,MemPalace/mempalace,benchmarks/model_eval/metrics.py,extract_timing,hybrid,
+watch a directory for file changes,87175,HKUDS/CLI-Anything,live2d/agent-harness/cli_anything/live2d/live2d_cli.py,watch,keyword+semantic+hybrid,
+watch a directory for file changes,129402,MemPalace/mempalace,mempalace/mcp_server/protocol.py,_dist_search_signature,keyword,
+watch a directory for file changes,73078,Graphify-Labs/graphify,tests/test_watch.py,test_watch_schedules_change_only_event_filter,keyword,
+watch a directory for file changes,166286,zhayujie/CowAgent,agent/evolution/executor.py,_workspace_changed,keyword+hybrid,
+watch a directory for file changes,129398,MemPalace/mempalace,mempalace/mcp_server/protocol.py,_excluded_working_directory,keyword,
+watch a directory for file changes,79936,Graphify-Labs/graphify,tests/test_python_injected_factory_calls.py,test_changed_file_watch_rebuild_keeps_unchanged_return_annotations,keyword,
+watch a directory for file changes,72993,Graphify-Labs/graphify,tests/test_watch.py,test_rebuild_code_incremental_rename_preserves_symlink_source_path,keyword,
+watch a directory for file changes,74211,Graphify-Labs/graphify,tests/test_language_override_lifecycle.py,test_watch_keeps_ignored_and_read_only_events_inert,keyword,
+watch a directory for file changes,130503,asgeirtj/system_prompts_leaks,Meta/muse-code/skills/agents/scripts/agents.py,file_watch_events,keyword,
+watch a directory for file changes,126428,MemPalace/mempalace,tests/mcp/test_stale_library.py,test_a_non_matching_directory_entry_does_not_end_the_scan,keyword,
+watch a directory for file changes,81901,Graphify-Labs/graphify,graphify/watch.py,watch,semantic+hybrid,
+watch a directory for file changes,57331,github/spec-kit,src/specify_cli/integrations/_file_changes.py,after_file_change,semantic,
+watch a directory for file changes,81898,Graphify-Labs/graphify,graphify/watch.py,_is_read_only_event,semantic,
+watch a directory for file changes,101797,2noise/ChatTTS,ChatTTS/utils/io.py,get_latest_modified_file,semantic,
+watch a directory for file changes,57330,github/spec-kit,src/specify_cli/integrations/_file_changes.py,before_file_change,semantic,
+watch a directory for file changes,74216,Graphify-Labs/graphify,tests/test_language_override_lifecycle.py,change,semantic+hybrid,
+watch a directory for file changes,57234,github/spec-kit,src/specify_cli/integrations/manifest.py,check_modified,semantic,
+watch a directory for file changes,81894,Graphify-Labs/graphify,graphify/watch.py,_notify_only,semantic+hybrid,
+watch a directory for file changes,72233,Graphify-Labs/graphify,tests/test_watch_pruned.py,test_watch_schedules_only_kept_directories,semantic+hybrid,
+watch a directory for file changes,81896,Graphify-Labs/graphify,graphify/watch.py,_watch_event_filter,hybrid,
+watch a directory for file changes,74208,Graphify-Labs/graphify,tests/test_language_override_lifecycle.py,test_watch_declared_code_updates_graph_on_observer_thread,hybrid,
+watch a directory for file changes,81893,Graphify-Labs/graphify,graphify/watch.py,check_update,hybrid,
+watch a directory for file changes,74213,Graphify-Labs/graphify,tests/test_language_override_lifecycle.py,test_watch_relative_roots_receive_config_events_without_rebasing_source_paths,hybrid,
+schedule a periodic task,118266,sansan0/TrendRadar,trendradar/commands/status.py,handle_status_commands,keyword+hybrid,
+schedule a periodic task,148422,huggingface/pytorch-image-models,tests/test_scheduler.py,test_warmup_lr_increases,keyword,
+schedule a periodic task,107820,scrapy/scrapy,scrapy/utils/asyncio.py,stop,keyword+hybrid,
+schedule a periodic task,117653,sansan0/TrendRadar,tests/test_web_search.py,test_scheduler_resolves_search_fields,keyword,
+schedule a periodic task,167441,zhayujie/CowAgent,channel/feishu/feishu_channel.py,_get_scheduler_task_store,keyword,
+schedule a periodic task,65017,NanmiCoder/MediaCrawler,cache/local_cache.py,_schedule_clear,keyword,
+schedule a periodic task,160049,zhayujie/CowAgent,tests/test_scheduler_schedule_shape.py,test_normalize_task_timestamps_survives_a_null_schedule,keyword,
+schedule a periodic task,117766,sansan0/TrendRadar,trendradar/__main__.py,_crawl_web_search_data,keyword,
+schedule a periodic task,168452,zhayujie/CowAgent,common/state_dir.py,scheduler_file_global,keyword,
+schedule a periodic task,160044,zhayujie/CowAgent,tests/test_scheduler_schedule_shape.py,test_get_survives_a_task_whose_schedule_is_not_a_mapping,keyword,
+schedule a periodic task,73156,Graphify-Labs/graphify,tests/test_watch.py,schedule,semantic,
+schedule a periodic task,73154,Graphify-Labs/graphify,tests/test_watch.py,schedule,semantic,
+schedule a periodic task,44952,AUTOMATIC1111/stable-diffusion-webui,modules/prompt_parser.py,scheduled,semantic,
+schedule a periodic task,141798,Alishahryar1/free-claude-code,tests/cli/test_desktop.py,schedule_run,semantic,
+schedule a periodic task,73155,Graphify-Labs/graphify,tests/test_watch.py,schedule,semantic,
+schedule a periodic task,74223,Graphify-Labs/graphify,tests/test_language_override_lifecycle.py,schedule,semantic,
+schedule a periodic task,165209,zhayujie/CowAgent,agent/tools/scheduler/scheduler_tool.py,_calculate_next_run,semantic+hybrid,
+schedule a periodic task,170823,shareAI-lab/learn-claude-code,s15_integrated_harness/code.py,schedule_job,semantic,
+schedule a periodic task,103811,scrapy/scrapy,tests/test_scheduler.py,create_scheduler,semantic,
+schedule a periodic task,164693,zhayujie/CowAgent,tests/test_scheduler_timezone.py,test_fall_back_repeated_local_hour_does_not_run_task_twice,semantic,
+schedule a periodic task,165190,zhayujie/CowAgent,agent/tools/scheduler/scheduler_service.py,run_task_now,hybrid,
+schedule a periodic task,165129,zhayujie/CowAgent,agent/tools/scheduler/task_store.py,finish_scheduled_run,hybrid,
+schedule a periodic task,163488,zhayujie/CowAgent,tests/test_scheduler_run_now.py,test_manual_run_executes_disabled_task_without_moving_schedule,hybrid,
+schedule a periodic task,161435,zhayujie/CowAgent,tests/test_scheduler_long_run_overlap.py,_task,hybrid,
+schedule a periodic task,165194,zhayujie/CowAgent,agent/tools/scheduler/scheduler_service.py,_calculate_next_run,hybrid,
+schedule a periodic task,165196,zhayujie/CowAgent,agent/tools/scheduler/scheduler_service.py,_run,hybrid,
+schedule a periodic task,167492,zhayujie/CowAgent,channel/feishu/feishu_scheduler_card.py,build_scheduler_card,hybrid,
+parse a git diff,136158,AntonOsika/gpt-engineer,gpt_engineer/core/chat_to_files.py,parse_diffs,keyword+semantic+hybrid,
+parse a git diff,22339,anthropics/claude-plugins-official,plugins/security-guidance/tests/test_diff_parsing.py,test_names_git_quotes_are_reviewed,keyword+hybrid,
+parse a git diff,85942,google/langextract,.github/scripts/pr_security_check.py,parse_diff,keyword+semantic+hybrid,
+parse a git diff,85940,google/langextract,.github/scripts/pr_security_check.py,_parse_path,keyword,
+parse a git diff,23186,anthropics/claude-plugins-official,plugins/security-guidance/hooks/gitutil.py,_parse_diff_header,keyword,
+parse a git diff,21940,anthropics/claude-plugins-official,plugins/security-guidance/tests/test_repeated_diff_count.py,test_real_diffs_of_two_commits_match_their_net_diff,keyword+semantic+hybrid,
+parse a git diff,22881,anthropics/claude-plugins-official,plugins/security-guidance/tests/test_diff_prefix_config.py,test_commit_diff,keyword+hybrid,
+parse a git diff,85941,google/langextract,.github/scripts/pr_security_check.py,_diff_git_path,keyword+hybrid,
+parse a git diff,125323,MemPalace/mempalace,tests/test_query_parser.py,test_structured_patch_diff_maps_to_content,keyword,
+parse a git diff,22880,anthropics/claude-plugins-official,plugins/security-guidance/tests/test_diff_prefix_config.py,test_work_tree_diff,keyword+semantic+hybrid,
+parse a git diff,23179,anthropics/claude-plugins-official,plugins/security-guidance/hooks/gitutil.py,get_git_diff,semantic+hybrid,
+parse a git diff,85958,google/langextract,.github/scripts/pr_security_check.py,git_diff,semantic+hybrid,
+parse a git diff,154692,ai-job-search-dev/ai-job-search,tools/check_framework_version.py,has_non_trivial_changes,semantic,
+parse a git diff,85016,google/langextract,tests/pr_security_check_test.py,_new_file_diff,semantic,
+parse a git diff,22301,anthropics/claude-plugins-official,plugins/security-guidance/tests/test_git_index_locks.py,test_untracked_files_still_reach_the_diff,semantic,
+parse a git diff,24036,anthropics/claude-plugins-official,plugins/claude-security/scripts/patch_artifacts.py,read_diff,semantic,
+parse a git diff,23197,anthropics/claude-plugins-official,plugins/security-guidance/hooks/gitutil.py,git_diff_unpaired,hybrid,
+compute iou of bounding boxes,93090,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/freecad_cli.py,measure_bounding_box,keyword+semantic+hybrid,
+compute iou of bounding boxes,36783,abi/screenshot-to-code,backend/tests/test_asset_extraction_benchmark.py,test_box_iou_reports_exact_partial_and_disjoint_boxes,keyword+semantic+hybrid,
+compute iou of bounding boxes,170377,ultralytics/yolov5,utils/segment/metrics.py,__init__,keyword+hybrid,
+compute iou of bounding boxes,36589,abi/screenshot-to-code,backend/evals/asset_extraction_benchmark.py,box_iou,keyword+semantic+hybrid,
+compute iou of bounding boxes,18029,lllyasviel/Fooocus,extras/facexlib/detection/retinaface_utils.py,intersect,keyword+hybrid,
+compute iou of bounding boxes,96807,HKUDS/CLI-Anything,3MF/agent-harness/cli_anything/threemf/tests/test_core.py,test_stats_bounding_box_has_required_keys,keyword+hybrid,
+compute iou of bounding boxes,93529,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/core/parts.py,part_info,keyword,
+compute iou of bounding boxes,93526,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/core/parts.py,_estimate_geometry,keyword+semantic+hybrid,
+compute iou of bounding boxes,96901,HKUDS/CLI-Anything,3MF/agent-harness/cli_anything/threemf/utils/threemf_backend.py,compute_mesh_stats,keyword,
+compute iou of bounding boxes,18030,lllyasviel/Fooocus,extras/facexlib/detection/retinaface_utils.py,jaccard,keyword+hybrid,
+compute iou of bounding boxes,170284,ultralytics/yolov5,utils/augmentations.py,box_candidates,semantic,
+compute iou of bounding boxes,93272,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/core/measure.py,_compute_inertia,semantic,
+compute iou of bounding boxes,93282,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/core/measure.py,measure_bounding_box,semantic+hybrid,
+compute iou of bounding boxes,96808,HKUDS/CLI-Anything,3MF/agent-harness/cli_anything/threemf/tests/test_core.py,test_stats_bounding_box_values_correct,semantic+hybrid,
+compute iou of bounding boxes,92971,HKUDS/CLI-Anything,freecad/agent-harness/cli_anything/freecad/freecad_cli.py,part_bounds,semantic,
+compute iou of bounding boxes,170264,ultralytics/yolov5,utils/general.py,scale_boxes,semantic,
+escape html characters,111334,hiyouga/LlamaFactory,src/llamafactory/webui/chatter.py,_escape_html,keyword+semantic+hybrid,
+escape html characters,69798,datalab-to/marker,marker/providers/powerpoint.py,_escape_html,keyword+semantic+hybrid,
+escape html characters,108814,luongnv89/claude-howto,scripts/tests/test_build_epub.py,test_html_escaping,keyword+semantic+hybrid,
+escape html characters,81141,Graphify-Labs/graphify,graphify/security.py,_sanitize_metadata_string,keyword+hybrid,
+escape html characters,11729,Imbad0202/academic-research-skills,scripts/verify_panel_recommendations.py,_cell,keyword,
+escape html characters,154337,hesreallyhim/awesome-claude-code,resources/awesome-list-entry-formatter.py,_md_text,keyword+hybrid,
+escape html characters,81140,Graphify-Labs/graphify,graphify/security.py,sanitize_label,keyword,
+escape html characters,80463,Graphify-Labs/graphify,tests/test_export.py,test_to_html_learning_overlay_tooltip_preserves_special_characters,keyword,
+escape html characters,81143,Graphify-Labs/graphify,graphify/security.py,sanitize_metadata,keyword,
+escape html characters,80462,Graphify-Labs/graphify,tests/test_export.py,test_to_html_tooltips_preserve_special_characters_without_html_entities,keyword,
+escape html characters,118313,sansan0/TrendRadar,mcp_server/tools/system.py,_html_escape,semantic+hybrid,
+escape html characters,118177,sansan0/TrendRadar,trendradar/ai/formatter.py,_escape_html,semantic+hybrid,
+escape html characters,18054,9001/copyparty,bin/partyjournal.py,html_escape,semantic+hybrid,
+escape html characters,157385,browser-use/browser-use,browser_use/repl/session.py,_html_escaped,semantic+hybrid,
+escape html characters,115827,nextlevelbuilder/ui-ux-pro-max-skill,.claude/skills/design-system/scripts/generate-slide.py,_e,semantic,
+escape html characters,108912,luongnv89/claude-howto,scripts/tests/test_build_website.py,test_escapes_html,semantic,
+escape html characters,95534,HKUDS/CLI-Anything,mubu/agent-harness/mubu_probe.py,plain_text_to_html,semantic,
+escape html characters,166518,zhayujie/CowAgent,agent/skills/formatter.py,_escape_xml,hybrid,
